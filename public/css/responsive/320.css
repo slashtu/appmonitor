@@ -1,0 +1,731 @@
+
+@media screen and (max-width: 1px) {
+	* {
+		background-size: 100%;
+	}
+	#widthSetting {
+		width: 320px;
+		height: 0;
+		position: absolute;
+		top: -9999px;
+	}
+	.highcharts-container {
+		overflow: visible !important;
+	}
+	.for320 {
+		display: block;
+	}
+	.header .full,
+	.header .simple {
+		display: none !important;
+	}
+	.header .for320 {
+		display: block;
+	}
+	.header .for320 > div {
+		float: none;
+	}
+	.header .for320 .logo {
+		width: 197px;
+		height: 44px;
+		background: url('/clearwatch/assets/css/responsive/images/320/header_logo.png') no-repeat 13px center transparent;
+		background-size: 184px auto;
+		display: block;
+	}
+	.header .for320 a.More {
+		width: 18px;
+		height: 44px;
+		margin: 0 15px 0 0;
+		display: block;
+	}
+	.header .for320 a.More {
+		background: url('/clearwatch/assets/css/responsive/images/320/header_btn_more.png') no-repeat 0 center transparent;
+		background-size: 18px auto;
+	}
+	.header .for320 > ul {
+		height: 48px;
+		background: #FFFFFF;
+		padding: 0 10px;
+		-webkit-box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+		-moz-box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+		box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+		position: relative;
+	}
+	.header .for320 > ul li {
+		margin: 0;
+		padding: 0;
+		float: left;
+	}
+	.header .for320 a .header-switch {
+		width: 26px;
+		height: 46px;
+		background: url('/clearwatch/assets/css/responsive/images/320/hud_icon_site.png') no-repeat center transparent;
+		background-size: 16px auto;
+		display: block;
+	}
+	.header .for320 .website {
+		min-width: 100px;
+		background: #FFFFFF;
+		margin: 0;
+		position: absolute;
+		left: 46px;
+		right: 70px;
+	}
+	.header .for320 .website a {
+		width: 100%;
+		color: #666666;
+		font-size: 12px;
+		line-height: 46px;
+		white-space: nowrap;
+		text-align: justify;
+		text-overflow: ellipsis;
+		padding: 0;
+		display: block;
+		overflow: hidden;
+	}
+	.header .for320 li.alert {
+		margin: 0 5px 0 0;
+		position: relative;
+		float: right;
+	}
+	.header .for320 .header-alert {
+		width: 26px;
+		height: 46px;
+		background: url('/clearwatch/assets/css/responsive/images/320/hud_btn_alert.png') no-repeat center transparent;
+		background-size: 16px auto;
+		display: block;
+	}
+	.header .for320 .alert-count {
+		width: 16px;
+		height: 16px;
+		color: #FFFFFF;
+		font-size: 13px;
+		line-height: 16px;
+		text-align: center;
+		background: #DE3E3E;
+		border-radius: 50%;
+		display: block;
+		position: absolute;
+		top: 7px;
+		right: -5px;
+	}
+	.header .for320 li.report {
+		float: right;
+	}
+	.header .for320 .header-report {
+		width: 26px;
+		height: 46px;
+		background: url('/clearwatch/assets/css/responsive/images/320/hud_btn_report.png') no-repeat center transparent;
+		display: block;
+	}
+	.header .for320 .menu > a {
+		color: #94BF4F;
+		font-size: 16px;
+		line-height: 50px;
+		text-align: center;
+		display: block;
+	}
+	.header .for320 .menu {
+		width: 240px;
+		background: #4D4D4D;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		display: none;
+	}
+	.header .for320 .menu ul li {
+		border-top: 1px solid #B3B3B3;
+		background-size: 15px auto !important;
+		display: block;
+	}
+	.header .for320 .menu ul li:last-child {
+		border-bottom: 1px solid #B3B3B3;
+	}
+	.header .for320 .menu ul li:nth-child(1) {
+		background: url('/clearwatch/assets/css/responsive/images/320/more_btn_account.png') no-repeat 18px center transparent;
+	}
+	.header .for320 .menu ul li:nth-child(1):hover {
+		background: url('/clearwatch/assets/css/responsive/images/320/more_btn_account_focus.png') no-repeat 18px center transparent;
+	}
+	.header .for320 .menu ul li:nth-child(2) {
+		background: url('/clearwatch/assets/css/responsive/images/320/more_btn_news.png') no-repeat 18px center transparent;
+	}
+	.header .for320 .menu ul li:nth-child(2):hover {
+		background: url('/clearwatch/assets/css/responsive/images/320/more_btn_news_focus.png') no-repeat 18px center transparent;
+	}
+	.header .for320 .menu ul li:nth-child(3) {
+		background: url('/clearwatch/assets/css/responsive/images/320/more_btn_help.png') no-repeat 18px center transparent;
+	}
+	.header .for320 .menu ul li:nth-child(3):hover {
+		background: url('/clearwatch/assets/css/responsive/images/320/more_btn_help_focus.png') no-repeat 18px center transparent;
+	}
+	.header .for320 .menu ul li a {
+		color: #B3B3B3;
+		font-size: 16px;
+		line-height: 50px;
+		padding: 0 0 0 42px;
+	}
+	.header .for320 .menu ul li:hover a {
+		color: #FFFFFF;
+	}
+	#HUD .simple,
+	#HUD .full,
+	#MainViews {
+		display: none !important;
+	}
+	#HUD {
+		top: 92px;
+		box-shadow: none;
+		position: relative;
+	}
+	#HUD.active {
+		height: auto;
+	}
+	#HUD .for320 li {
+		display: block;
+	}
+	#HUD .for320 li > section:nth-child(1) {
+		height: 105px;
+		-webkit-box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+		-moz-box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+		box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+		position: relative;
+		z-index: 555;
+	}
+	#HUD .for320 .HUD-Biz > section:nth-child(1) {
+		background: #4FA8A1;
+	}
+	#HUD .for320 .HUD-Protection > section:nth-child(1) {
+		background: #94BF4F;
+	}
+	#HUD .for320 .HUD-Performance > section:nth-child(1) {
+		background: #9B9887;
+	}
+	#HUD .for320 .HUD-APPs > section:nth-child(1) {
+		height: 45px;
+		background: #ECAFB2;
+	}
+	#HUD .for320 li > section:nth-child(1) > h2 {
+		width: 200px;
+		font-size: 18px;
+		background-repeat: no-repeat;
+		background-position: 12px 12px;
+		background-color: transparent;
+		background-size: 24px auto;
+		margin: 0;
+		padding: 10px 0 0 45px;
+		line-height: 32px;
+	}
+	#HUD .for320 li > section:nth-child(1) > div {
+		padding: 0 10px 0 45px;
+	}
+	#HUD .for320 li > section:nth-child(1) > div > div {
+		float: left;
+	}
+	#HUD .for320 li > section:nth-child(1) > div > div:nth-child(1) {
+		width: 35%;
+	}
+	#HUD .for320 li > section:nth-child(1) > div > div:nth-child(1) > label {
+		color: #FFFFFF;
+		font-size: 12px;
+	}
+	#HUD .for320 li > section:nth-child(1) > div > div:nth-child(1) > div {
+		color: #FFFFFF;
+		font-size: 22px;
+	}
+	#HUD .for320 li > section:nth-child(1) > div > div:nth-child(2) {
+		width: 32%;
+		margin: 3px 0 0 0;
+	}
+	#HUD .for320 li > section:nth-child(1) > div > div:nth-child(3) {
+		width: 33%;
+		margin: 3px 0 0 0;
+	}
+	#HUD .for320 li > section:nth-child(1) > div > div:nth-child(2) > label,
+	#HUD .for320 li > section:nth-child(1) > div > div:nth-child(3) > label {
+		font-size: 12px;
+	}
+	#HUD .for320 li > section:nth-child(1) > div > div:nth-child(2) > div,
+	#HUD .for320 li > section:nth-child(1) > div > div:nth-child(3) > div {
+		color: #FFFFFF;
+		font-size: 18px;
+		margin: 3px 0 0 0;
+	}
+	#HUD .for320 li.HUD-Biz section:nth-child(1) > h2 {
+		color: #205752;
+		background-image: url('/clearwatch/assets/css/responsive/images/320/nav_pulse.png');
+	}
+	#HUD .for320 li.HUD-Biz > section:nth-child(1) > div > div:nth-child(2) > label,
+	#HUD .for320 li.HUD-Biz > section:nth-child(1) > div > div:nth-child(3) > label {
+		color: #266660;
+	}
+	#HUD .for320 li.HUD-Protection section:nth-child(1) > h2 {
+		color: #4A691C;
+		background-image: url('/clearwatch/assets/css/responsive/images/320/nav_protection.png');
+	}
+	#HUD .for320 li > section:nth-child(1) > div > div:nth-child(2) > label {
+		color: #266660;
+	}
+	#HUD .for320 li.HUD-Protection > section:nth-child(1) > div > div:nth-child(2) > label,
+	#HUD .for320 li.HUD-Protection > section:nth-child(1) > div > div:nth-child(3) > label {
+		color: #5F7D30;
+	}
+	#HUD .for320 li.HUD-Performance > section:nth-child(1) > h2 {
+		color: #47442C;
+		background-image: url('/clearwatch/assets/css/responsive/images/320/nav_perform.png');
+	}
+	#HUD .for320 li.HUD-Performance > section:nth-child(1) > div > div:nth-child(2) > label,
+	#HUD .for320 li.HUD-Performance > section:nth-child(1) > div > div:nth-child(3) > label {
+		color: #57543E;
+	}
+	#HUD .for320 li.HUD-APPs > section:nth-child(1) > h2 {
+		color: #5C3739;
+		background-image: url('/clearwatch/assets/css/responsive/images/320/nav_app.png');
+	}
+	#HUD .for320 li > section:nth-child(2) {
+		background: #FFFFFF;
+		position: relative;
+		display: none;
+	}
+	#HUD .for320 li > section:nth-child(2) > div {
+		margin: 0;	
+	}
+	#HUD .for320 li > section:nth-child(2) > div > div {
+		position: relative;
+	}
+	#HUD .for320 .PageviewsStatistics {
+		position: absolute;
+		left: 50%;
+		bottom: 26px;
+	}
+	#HUD .for320 .VisitorsStatistics {
+		position: absolute;
+		left: 50%;;
+		bottom: 11px;
+	}
+	#HUD .for320 .PageviewsStatistics div,
+	#HUD .for320 .VisitorsStatistics div {
+		font-size: 12px;
+		margin: 0 5px 0 0;
+		float: left;
+	}
+	#HUD .for320 .PageviewsStatistics div {
+		color: #4FA8A1;
+	}
+	#HUD .for320 .VisitorsStatistics div {
+		color: #94BF4F;
+	}
+	#HUD .for320 .AvgPages,
+	#HUD .for320 .AvgStay {
+		width: 50%;
+		margin: 10px 0;
+		padding: 10px 0;
+		float: left;
+	}
+	#HUD .for320 .AvgPages {
+		border-right: 1px solid #D5D5D5;
+	}
+	#HUD .for320 .AvgPages label,
+	#HUD .for320 .AvgStay label {
+		color: #266660;
+		font-size: 12px;
+		text-align: center;
+		display: block;
+	}
+	#HUD .for320 .AvgPages div,
+	#HUD .for320 .AvgStay div {
+		color: #4FA8A1;
+		font-size: 24px;
+		text-align: center;
+	}
+	#HUD .for320 .AvgPages div:after {
+		font-size: 12px;
+		line-height: 1;
+		content: 'pages';
+		display: block;
+		position: relative;
+		top: -5px;
+	}
+	#HUD .for320 .AvgStay div:after {
+		font-size: 12px;
+		line-height: 1;
+		content: 'sec';
+		display: block;
+		position: relative;
+		top: -5px;
+	}
+	#HUD .for320 .BotCal {
+		padding: 20px 0;
+	}
+	#HUD .for320 .BotCal label {
+		color: #5F7D30;
+		font-size: 12px;
+		text-align: center;
+		display: block;
+	}
+	#HUD .for320 .BotCal div {
+		color: #94BF4F;
+		font-size: 24px;
+		text-align: center;
+	}
+	#HUD .for320 .SiteSpeed {
+		padding: 20px 0;
+	}
+	#HUD .for320 .SiteSpeed label {
+		color: #57543E;
+		font-size: 12px;
+		text-align: center;
+		display: block;
+	}
+	#HUD .for320 .SiteSpeed div {
+		color: #9B9887;
+		font-size: 24px;
+		text-align: center;
+	}
+	#HUD .for320 .SiteSpeed div:after {
+		font-size: 12px;
+		line-height: 1;
+		content: 'ms';
+		display: block;
+		position: relative;
+		top: -5px;
+	}
+	#HUD .for320 li.HUD-APPs > section:nth-child(2) {
+		padding: 5px 10px;
+	}
+	#HUD .for320 li.HUD-APPs div > div {
+		margin: 25px 0;
+	}
+	#HUD .for320 li.HUD-APPs div h1 {
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		background-size: 52px auto !important;
+		padding: 55px 0 0 0;
+		margin: 0;
+	}
+	#HUD .for320 li.HUD-APPs div h2 {
+		font-size: 15px;
+		font-weight: bold;
+		line-height: 32px;
+		background-size: 31px auto !important;
+		padding: 0 0 0 45px;
+		margin: 25px 0 0 0;
+	}
+	#HUD .for320 li.HUD-APPs div ul {
+		border-top: 1px solid #D5D5D5;
+		margin: 15px 0 0;
+	}
+	#HUD .for320 li.HUD-APPs div ul li {
+		background-size: 21px auto !important;
+		border-bottom: 1px solid #D5D5D5;
+		display: block;
+		position: relative;
+	}
+	#HUD .for320 li.HUD-APPs div ul li:after {
+		width: 46px;
+		height: 22px;
+		content: " ";
+		position: absolute;
+		right: 0;
+		top: 16px;
+	}
+	#HUD .for320 li.HUD-APPs div ul li a {
+		color: #666666;
+		font-size: 15px;
+		line-height: 50px;
+		padding: 0 0 0 5px;
+	}
+	#HUD .for320 .APPs-Performance ul li:after {
+		background: url('/clearwatch/assets/css/responsive/images/320/app_perform_switch_on.png') no-repeat 0 top transparent;
+	}
+	#HUD .for320 .APPs-Performance h1 {
+		color: #9B9887;
+		background: url('/clearwatch/assets/css/responsive/images/320/app_perform.png') no-repeat top center transparent;
+	}
+	#HUD .for320 .APPs-Protection ul li:after {
+		background: url('/clearwatch/assets/css/responsive/images/320/app_protect_switch_on.png') no-repeat 0 top transparent;
+	}
+	#HUD .for320 .APPs-Protection h1 {
+		color: #94BF4F;
+		background: url('/clearwatch/assets/css/responsive/images/320/app_protection.png') no-repeat top center transparent;
+	}
+	#HUD .for320 .APPs-Protection h2 {
+		color: #94BF4F;
+	}
+	#HUD .for320 .APPs-Protection h2:nth-child(2) {
+		background: url('/clearwatch/assets/css/responsive/images/320/app_protection_1.png') no-repeat 5px center transparent;
+	}
+	#HUD .for320 .APPs-Protection h2:nth-child(4) {
+		background: url('/clearwatch/assets/css/responsive/images/320/app_protection_2.png') no-repeat 5px center transparent;
+	}
+	#HUD .for320 .APPs-Protection h2:nth-child(6) {
+		background: url('/clearwatch/assets/css/responsive/images/320/app_protection_3.png') no-repeat 5px center transparent;
+	}
+	#HUD .for320 .APPs-BuiltInAPPs h1 {
+		color: #ECAFB2;
+		background: url('/clearwatch/assets/css/responsive/images/320/app_buildin.png') no-repeat center top transparent;
+	}
+	#HUD .for320 .APPs-BuiltInAPPs ul li:after {
+		background: url('/clearwatch/assets/css/responsive/images/320/app_buildin_switch_on.png') no-repeat 0 top transparent;
+	}
+	#HUD .for320 .APPs-3rdPartyAPPs h1 {
+		color: #999999;
+		background: url('/clearwatch/assets/css/responsive/images/320/app_3rd.png') no-repeat center top transparent;
+	}
+	#HUD .for320 li.HUD-APPs div > ul li.apps-disabled:after {
+		background: url('/clearwatch/assets/css/responsive/images/320/app_switch_off.png') no-repeat center top transparent;
+	}
+	#HUD .for320 li.HUD-APPs div > ul li.apps-disabled a {
+		color: #999999;
+	}
+	#HUD .for320 .apps-business-pulse,
+	#HUD .for320 .apps-clearscan,
+	#HUD .for320 .apps-ddos-assessment,
+	#HUD .for320 .apps-cloud-based-ddos-detection {
+		padding: 0 0 0 30px;
+	}
+	#HUD .for320 .apps-business-pulse {
+		background: url('/clearwatch/assets/css/responsive/images/320/app_buildin_1.png') no-repeat 5px center transparent;
+	}
+	#HUD .for320 .apps-clearscan {
+		background: url('/clearwatch/assets/css/responsive/images/320/app_buildin_2.png') no-repeat 5px center transparent;
+	}
+	#HUD .for320 .apps-ddos-assessment {
+		background: url('/clearwatch/assets/css/responsive/images/320/app_buildin_3.png') no-repeat 5px center transparent;
+	}
+	#HUD .for320 .apps-cloud-based-ddos-detection {
+		background: url('/clearwatch/assets/css/responsive/images/320/app_buildin_4.png') no-repeat 5px center transparent;
+	}
+	#Overview {
+		height: 92%;
+		padding: 0 12px;
+		margin: -36px 0 0;
+		top: -1200px;
+		z-index: 106;
+		overflow: auto;
+	}
+	#Overview > h1 {
+		display: none;
+	}
+	#Overview > a {
+		width: 24px;
+		height: 30px;
+		background: url('/clearwatch/assets/css/responsive/images/320/allsite_btn_back.png') no-repeat center top transparent;
+		background-size: 100% auto;
+	}
+	#Overview .websites {
+		width: 100%;
+	}
+	#Overview .websites li {
+		width: 100%;
+	}
+	#Overview .websites li > div > div:nth-child(1) {
+		width: 37%;
+		margin: 0 1% 0 0;
+	}
+	#Overview .websites li > div > div:nth-child(2),
+	#Overview .websites li > div > div:nth-child(3) {
+		width: 30%;
+		margin: 0 1% 0 0;
+	}
+	#Overview .websites li > div > div:nth-child(4) {
+		width: 100%;
+		border: 0;
+		margin: 15px 0 0;
+	}
+	#Overview .websites li > div > div:nth-child(4) > div {
+		float: left;
+	}
+	#Overview .websites li > div > div:nth-child(4) > div:nth-child(1) {
+		width: 37%;
+		margin: 0 1% 0 0;
+	}
+	#Overview .websites li > div > div:nth-child(4) > div:nth-child(2) {
+		width: 30%;
+		margin: 0 1% 0 0;
+	}
+	#Overview .websites li > div > div:nth-child(4) > div label {
+		text-align: left;
+		float: none;
+	}
+	#Overview .websites li > div > div > div > div {
+		float: none;
+	}
+	body.landing-page {
+		background: #063034;
+	}
+	section.landing {
+		height: 260px;
+		background: url("/clearwatch/assets/css/responsive/images/320/login_logo.png") no-repeat scroll center 30px #063034;
+		background-size: 106px auto;
+	}
+	#LoginForm,
+	#ForgetForm {
+		width: 280px;
+		margin: 0 auto;
+		background: transparent;
+	}
+	#LoginForm:after,
+	#ForgetForm:after,
+	#CustomerMainView:after {
+		color: #666666;
+		width: 280px;
+		text-align: center;
+		margin-left: -140px;
+		/*content: '© 2014 Nexusguard Limited';*/
+	}
+	#LoginForm > section > form,
+	#ForgetForm > section > form {
+		width: 280px;
+		padding: 0;
+		background: transparent;
+	}
+	#ForgetForm > section > form > h1 {
+		color: #B3B3B3;
+		font-size: 20px;
+		text-align: left;
+	}
+	#ForgetForm > section > form > h3 {
+		color: #808080;
+		font-size: 13px;
+		margin: 5px 0;
+	}
+	#LoginForm > section > form > h1 {
+		color: #8BC53F;
+		font-size: 30px;
+		font-weight: normal;
+	}
+	#LoginForm > section > form > h2 {
+		color: #8BC53F;
+		font-size: 21px;
+		font-weight: lighter;
+	}
+	#LoginForm > section > form > h3 {
+		margin: 0 0 10px 0;
+	}
+	#LoginForm > section > form .checkbox-row {
+		padding: 5px 0;
+	}
+	#LoginForm > section > form .checkbox-row label {
+		color: #B3B3B3;
+	}
+	#LoginForm > section > a {
+		color: #8BC53F;
+		font-size: 13px;
+		width: auto;
+		position: absolute;
+		bottom: 85px;
+		right: 0;
+	}
+	#ForgetForm > section > a {
+		color: #8BC53F;
+		width: 120px;
+		margin-left: -60px;
+		display: block;
+		position: relative;
+		left: 50%;
+		bottom: 0;
+	}
+	#ForgetForm .btn {
+		width: 280px;
+	}
+	.recaptcha-image {	
+		margin: 10px auto;
+		float: none;
+	}
+	.recaptcha-image a img {
+		width: 280px;
+	}
+	.recaptcha-controls {
+		width: 280px;
+		text-align: center;
+		margin: 10px 0 0;
+		float: none;
+	}
+	#CustomerMainView {
+		margin: 0;
+		padding: 40px 20px 0;
+		position: relative;
+		top: -60px;
+	}
+	#CustomerMainView h1 {
+		display: none;
+	}
+	#CustomerMainView h2 {
+		color: #8BC53F;
+		font-size: 20px;
+		font-weight: 300;
+	}
+	#CustomerMainView h2:after {
+		width: 80px;
+		height: 1px;
+		background: #94BF4F;
+		content: " ";
+		margin: 6px 40px 0;
+		display: block;
+	}
+	.customer-menu {
+		height: 46px;
+		position: relative;
+	}
+	.customer-menu ul {
+		width: auto;
+	}
+	.customer-menu ul li {
+		line-height: 45px;
+	}
+	.MemberForm {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.MemberForm > form {
+		width: 100%;
+	}
+	.MemberForm > form div:last-child .btn {
+		width: 100%;
+	}
+	.Policy > section {
+		width: 100%;
+	}
+	section.footer {
+		position: relative;
+		top: 92px;
+		padding: 10px 0;
+	}
+	section.footer br {
+		display: block;
+	}
+	.landing-page .footer {
+		color: #666666;
+		margin-top: 0;
+	}
+	.recaptcha-controls a {
+		background-size: 25px auto !important;
+	}
+	.recaptcha-controls a.icon-refresh {
+		background: url('/clearwatch/assets/css/responsive/images/320/recaptcha_refresh.png') no-repeat 0 0 scroll;
+	}
+	.recaptcha-controls a.icon-refresh:hover {
+		background: url('/clearwatch/assets/css/responsive/images/320/recaptcha_refresh_focus.png') no-repeat 0 0 scroll;
+	}
+	.recaptcha-controls a.icon-headphones {
+		background: url('/clearwatch/assets/css/responsive/images/320/recaptcha_soundon.png') no-repeat 0 0 scroll;
+	}
+	.recaptcha-controls a.icon-headphones:hover {
+		background: url('/clearwatch/assets/css/responsive/images/320/recaptcha_soundon_focus.png') no-repeat 0 0 scroll;
+	}
+	.recaptcha-controls a.icon-picture {
+		background: url('/clearwatch/assets/css/responsive/images/320/recaptcha_soundoff.png') no-repeat 0 0 scroll;
+	}
+	.recaptcha-controls a.icon-picture:hover {
+		background: url('/clearwatch/assets/css/responsive/images/320/recaptcha_soundoff_focus.png') no-repeat 0 0 scroll;
+	}
+	.recaptcha-controls a.icon-question-sign {
+		background: url('/clearwatch/assets/css/responsive/images/320/recaptcha_help.png') no-repeat 0 0 scroll;
+	}
+	.recaptcha-controls a.icon-question-sign:hover {
+		background: url('/clearwatch/assets/css/responsive/images/320/recaptcha_help_focus.png') no-repeat 0 0 scroll;
+	}
+}

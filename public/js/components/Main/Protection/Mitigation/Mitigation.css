@@ -1,0 +1,28 @@
+.mitigation {
+
+}
+
+.mitigation > div {
+  min-height: 460px;
+  text-align: center;
+  margin: 0 0 80px;
+  position: relative;
+}
+
+.mitigation > div > h1{
+  color: #e15829;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0 0 5px;
+  text-transform: uppercase;
+}
+
+.mitigation > div > h1:after{
+  background: #e15829;
+  width: 70px;
+  height: 1px;
+  content: " ";
+  margin: 6px auto 0;
+  display: block;
+}

@@ -1,0 +1,707 @@
+#HUD {
+	background: #F2F2F2;
+	-webkit-box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+	-moz-box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+	box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 80px;
+	z-index: 102;
+}
+#HUD.active {
+	top: 40px;
+	height: 40px;
+}
+#HUD .simple {
+	height: 100px;
+}
+#HUD ul.simple,
+#HUD ul.full {
+	margin: 0 auto;
+}
+#HUD ul.full {
+	display: none;
+}
+#HUD ul.full li {
+	width: 100%;
+	-webkit-box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+	-moz-box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+	box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+	display: none;
+}
+#HUD ul.full li.active {
+	display: block;
+}
+#HUD ul.simple li {
+	height: 100px;
+	border-right: 1px solid #FFFFFF;
+	padding: 0 15px;
+	background-repeat: no-repeat;
+	background-position: 16px 14px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+}
+#HUD ul.simple li.active {
+	cursor: default;
+}
+#HUD ul.simple li:last-child {
+	border: 0;
+}
+#HUD ul.simple li.HUD-Biz {
+	background-image: url('/clearwatch/assets/css/images/nav_pulse.png');
+}
+#HUD ul.simple li.HUD-Protection {
+	background-image: url('/clearwatch/assets/css/images/nav_protect.png');
+}
+#HUD ul.simple li.HUD-Performance {
+	background-image: url('/clearwatch/assets/css/images/nav_perform.png');
+}
+#HUD ul.simple li.HUD-APPs {
+	background-position: 31px 53px;
+	background-image: url('/clearwatch/assets/css/images/nav_app.png');
+}
+#HUD ul.simple li.HUD-Biz.active,
+#HUD ul.simple li.HUD-Biz:hover,
+#HUD ul.full li.HUD-Biz > div {
+	background-image: url('/clearwatch/assets/css/images/nav_pulse-selected.png');
+	background-color: #4FA8A1;
+}
+#HUD ul.full li.HUD-Biz > div {
+	background-image: url('/clearwatch/assets/css/images/navi_v1/nav_pulse-selected.png');
+}
+#HUD ul.full li.HUD-Biz {
+	background-color: #4FA8A1;
+}
+#HUD ul.simple li.HUD-Protection.active,
+#HUD ul.simple li.HUD-Protection:hover,
+#HUD ul.full li.HUD-Protection > div {
+	background-image: url('/clearwatch/assets/css/images/nav_protect-selected.png');
+	background-color: #94BF4F;
+}
+#HUD ul.full li.HUD-Protection > div {
+	background-image: url('/clearwatch/assets/css/images/navi_v1/nav_protect-selected.png');
+}
+#HUD ul.full li.HUD-Protection {
+	background-color: #94BF4F;
+}
+#HUD ul.simple li.HUD-Performance.active,
+#HUD ul.simple li.HUD-Performance:hover,
+#HUD ul.full li.HUD-Performance > div {
+	background-image: url('/clearwatch/assets/css/images/nav_perform-selected.png');
+	background-color: #9B9887;
+}
+#HUD ul.full li.HUD-Performance > div {
+	background-image: url('/clearwatch/assets/css/images/navi_v1/nav_perform-selected.png');
+}
+
+#HUD ul.full li.HUD-Performance {
+	background-color: #9B9887;
+}
+#HUD ul.simple li.HUD-APPs.active,
+#HUD ul.simple li.HUD-APPs:hover,
+#HUD ul.full li.HUD-APPs > div {
+	background-image: url('/clearwatch/assets/css/images/nav_app-selected.png');
+	background-position: 31px 53px;
+	background-color: #ECAFB2;
+}
+#HUD ul.full li.HUD-APPs > div {
+	background-image: url('/clearwatch/assets/css/images/navi_v1/nav_app-selected.png');
+	background-position: 23px 10px;
+}
+#HUD ul.full li.HUD-APPs {
+	background-color: #ECAFB2;
+}
+#HUD ul.simple li.active:after {
+	border-style: solid;
+	border-width: 16px 10px;
+	margin-left: -8px;
+	content: " ";
+	position: absolute;
+	bottom: -31px;
+	left: 50%;
+}
+#HUD ul.simple li.HUD-Biz.active:after {
+	border-color: #4FA8A1 transparent transparent transparent;
+}
+#HUD ul.simple li.HUD-Protection.active:after {
+	border-color: #94BF4F transparent transparent transparent;
+}
+#HUD ul.simple li.HUD-Performance.active:after {
+	border-color: #9B9887 transparent transparent transparent;
+}
+#HUD ul.simple li.HUD-APPs.active:after {
+	border-color: #ECAFB2 transparent transparent transparent;
+}
+#HUD ul.simple li > div {
+	margin: -3px 0 0 21px;
+	float: left;
+}
+#HUD ul.full li > div {
+	margin: 0 auto;
+}
+#HUD ul.simple li > div:last-child {
+	margin: -6px 0 0 0;
+	float: right;
+}
+#HUD ul.simple li > div section div {
+	color: #666666;
+	font-size: 24px;
+	line-height: 1.2;
+}
+#HUD ul.simple li > div section label {
+	color: #999999;
+	font-size: 12px;
+	margin: 0;
+}
+#HUD ul.simple li.active > div section div,
+#HUD ul.simple li:hover > div section div {
+	color: #FFFFFF;
+}
+#HUD ul.simple li > div:last-child section {
+	margin: 5px 0 0 0;
+}
+#HUD ul.simple li > div:last-child section:first-child {
+	margin: 0;
+}
+#HUD ul.simple li > div:last-child section div {
+	margin: 2px 0 0 0;
+	font-size: 14px;
+	float: left;
+}
+#HUD ul.simple li > div:last-child section label {
+	width: 60px;
+	text-align: right;
+	line-height:23px;
+	margin: 0 5px 0 0;
+	float: left;
+}
+#HUD ul.full li {
+	height: 46px;
+	position: relative;
+	float: left;
+}
+#HUD ul.full li > div {
+	background-repeat: no-repeat;
+	background-position: 23px 10px;
+	padding: 0 0 0 50px;
+}
+#HUD ul.full li > div section {
+	margin: 0;
+}
+#HUD ul.simple li h2 {
+	color: #666666;
+	font-size: 14px;
+	line-height: 27px;
+	padding: 0 0 0 20px;
+	margin: 7px 0 8px 0;
+}
+#HUD ul.simple li.HUD-APPs h3 {
+	color: #666666;
+	font-size: 14px;
+	padding: 13px 0 0 0;
+	margin: 10px 0 0;
+	text-align: center;
+}
+#HUD ul.simple li.HUD-Biz.active h2,
+#HUD ul.simple li.HUD-Biz:hover h2{
+	color: #205752;
+}
+#HUD ul.simple li.HUD-Protection.active h2,
+#HUD ul.simple li.HUD-Protection:hover h2 {
+	color: #4A691C;
+}
+#HUD ul.simple li.HUD-Performance.active h2,
+#HUD ul.simple li.HUD-Performance:hover h2 {
+	color: #57543E;
+}
+#HUD ul.simple li.HUD-APPs.active h3,
+#HUD ul.simple li.HUD-APPs:hover h3 {
+	color: #5C3739;
+}
+#HUD ul.simple li.HUD-Biz.active > div section label,
+#HUD ul.simple li.HUD-Biz:hover > div section label {
+	color: #266660;
+}
+#HUD ul.simple li.HUD-Protection.active > div section label,
+#HUD ul.simple li.HUD-Protection:hover > div section label {
+	color: #4A691C;
+}
+#HUD ul.simple li.HUD-Protection > div:last-child section label {
+	width: 110px;
+}
+#HUD ul.simple li.HUD-Performance.active > div section label,
+#HUD ul.simple li.HUD-Performance:hover > div section label {
+	color: #57543E;
+}
+#HUD ul.simple li.HUD-Performance > div:last-child section label {
+	width: 70px;
+}
+#HUD ul.full li {
+
+}
+#HUD ul.full li section {
+	height: 46px;
+	border-width: 0 1px 0 0;
+	border-style: solid;
+	margin: 2px 0;
+	padding: 0 10px;
+	float: left;
+}
+#HUD ul.full li section:last-child {
+	border: 0;
+}
+#HUD ul.full li a.ReturnTop {
+	width: 18px;
+	height: 46px;
+	float: right;
+}
+#HUD ul.full li.HUD-Biz section {
+	border-color: #68B8B1;
+}
+#HUD ul.full li.HUD-Biz a.ReturnTop {
+	background: url('/clearwatch/assets/css/images/pulse_return_top.png') no-repeat 0 center transparent;
+}
+#HUD ul.full li.HUD-Biz a.ReturnTop:hover {
+	background: url('/clearwatch/assets/css/images/pulse_return_top_hover.png') no-repeat 0 center transparent;
+}
+#HUD ul.full li.HUD-Protection section {
+	border-color: #C5DD99;
+}
+#HUD ul.full li.HUD-Protection a.ReturnTop {
+	background: url('/clearwatch/assets/css/images/protect_return_top.png') no-repeat 0 center transparent;
+}
+#HUD ul.full li.HUD-Protection a.ReturnTop:hover {
+	background: url('/clearwatch/assets/css/images/pulse_return_top_hover.png') no-repeat 0 center transparent;
+}
+#HUD ul.full li.HUD-Performance section {
+	border-color: #B8B4A1;
+}
+#HUD ul.full li.HUD-Performance a.ReturnTop {
+	background: url('/clearwatch/assets/css/images/perform_return_top.png') no-repeat 0 center transparent;
+}
+#HUD ul.full li.HUD-Performance a.ReturnTop:hover {
+	background: url('/clearwatch/assets/css/images/pulse_return_top_hover.png') no-repeat 0 center transparent;
+}
+#HUD ul.full li.HUD-APPs section {
+	border-color: #FFFFFF;
+}
+#HUD ul.full li.HUD-APPs a.ReturnTop {
+	background: url('/clearwatch/assets/css/images/apps_return_top.png') no-repeat 0 center transparent;
+}
+#HUD ul.full li.HUD-APPs a.ReturnTop:hover {
+	background: url('/clearwatch/assets/css/images/pulse_return_top_hover.png') no-repeat 0 center transparent;
+}
+#HUD ul.full li .smallCharts {
+	width: 80px;
+	height: 46px;
+	text-align:center;
+	line-height:6;
+	/*background: url('/clearwatch/assets/css/images/small_charts.png') no-repeat center transparent;*/
+}
+#HUD ul.full li .OnlineUsers > div {
+	color: #FFFFFF;
+	font-size: 28px;
+	line-height: 46px;
+	float: left;
+	font-weight:lighter;
+}
+#HUD ul.full li .OnlineUsers > label {
+	color: #266660;
+	font-size: 13px;
+	line-height: 13px;
+	margin: 23px 0 0 3px;
+	float: left;
+}
+#HUD ul.full li .Pageviews > div {
+	float: left;
+}
+#HUD ul.full li .Pageviews > div:nth-child(1) {
+	width: 90px;
+}
+#HUD ul.full li .Pageviews > div:nth-child(1) label {
+	color: #266660;
+	font-size: 13px;
+	padding-top:3px;
+}
+#HUD ul.full li .Pageviews > div:nth-child(1) div {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: right;
+	font-weight:lighter;
+}
+#HUD ul.full li .Pageviews > div:nth-child(2) {
+	
+}
+#HUD ul.full li .Pageviews > div:nth-child(3) {
+	margin: 3px 0;
+	height: 40px;
+}
+#HUD ul.full li .Pageviews > div:nth-child(3) > div:not(:first-child) {
+	margin: 3px 0 0;
+}
+#HUD ul.full li .Pageviews > div:nth-child(3) > div > label {
+	width: 30px;
+	color: #266660;
+	font-size: 12px;
+	float: left;
+}
+#HUD ul.full li .Pageviews > div:nth-child(3) > div > div {
+	color: #266660;
+	font-size: 12px;
+	float: left;
+}
+#HUD ul.full li .Visitors > div {
+	float: left;
+}
+#HUD ul.full li .Visitors > div:nth-child(1) {
+	width: 90px;
+}
+#HUD ul.full li .Visitors > div:nth-child(1) label {
+	color: #266660;
+	font-size: 13px;
+	padding-top:3px;
+}
+#HUD ul.full li .Visitors > div:nth-child(1) div {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: right;
+	font-weight:lighter;
+}
+#HUD ul.full li .Visitors > div:nth-child(2) {
+	
+}
+#HUD ul.full li .Visitors > div:nth-child(3) {
+	margin: 3px 0;
+	height: 40px;
+}
+#HUD ul.full li .Visitors > div:nth-child(3) > div:not(:first-child) {
+	margin: 3px 0 0;
+}
+#HUD ul.full li .Visitors > div:nth-child(3) > div > label {
+	width: 30px;
+	color: #266660;
+	font-size: 12px;
+	float: left;
+}
+#HUD ul.full li .Visitors > div:nth-child(3) > div > div {
+	color: #266660;
+	font-size: 12px;
+	float: left;
+}
+#HUD ul.full li .AvgPages {
+	width: 100px;
+}
+#HUD ul.full li .AvgPages label {
+	color: #266660;
+	font-size: 13px;
+}
+#HUD ul.full li .AvgPages div {
+	width: 80px;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: right;
+}
+#HUD ul.full li .AvgPages div:after {
+	color: #FFFFFF;
+	font-size: 12px;
+	content: "pages";
+	margin: 0 0 0 3px;
+}
+#HUD ul.full li .AvgStay {
+	width: 100px;
+}
+#HUD ul.full li .AvgStay label {
+	color: #266660;
+	font-size: 13px;
+}
+#HUD ul.full li .AvgStay div {
+	width: 80px;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: right;
+	font-weight:lighter;
+}
+#HUD ul.full li .AvgStay div:after {
+	color: #FFFFFF;
+	font-size: 12px;
+	content: "sec";
+	margin: 0 0 0 3px;
+}
+#HUD ul.full li .Threats div {
+	color: #FFFFFF;
+	font-size: 28px;
+	line-height: 46px;
+	font-weight:lighter;
+	float: left;
+}
+#HUD ul.full li .Threats label {
+	color: #5F7A34;
+	font-size: 13px;
+	line-height: 13px;
+	margin: 23px 0 0 3px;
+	float: left;
+}
+#HUD ul.full li .Bandwidth > * {
+	float: left;
+}
+#HUD ul.full li .Bandwidth > *:nth-child(1) {
+	width: 80px;
+	color: #4A691C;
+	font-size: 15px;
+	line-height: 46px;
+}
+#HUD ul.full li .Bandwidth > *:nth-child(2) {
+	color: #47442C;
+	font-size: 13px;
+	line-height: 0px;
+	margin: 18px 2px 0;
+}
+#HUD ul.full li .Bandwidth > *:nth-child(3) {
+	color: #FFFFFF;
+	font-size: 21px;
+	line-height: 18px;
+	margin: 18px 2px 0 0;
+	font-weight:lighter;
+}
+#HUD ul.full li .Bandwidth > *:nth-child(4) {
+	color: #47442C;
+	font-size: 13px;
+	line-height: 0px;
+	margin: 18px 2px 0;
+}
+#HUD ul.full li .Bandwidth > *:nth-child(5) {
+	color: #FFFFFF;
+	font-size: 21px;
+	line-height: 18px;
+	margin: 18px 2px 0 0 ;
+	font-weight:lighter;
+}
+#HUD ul.full li .Requests > * {
+	float: left;
+}
+#HUD ul.full li .Requests > *:nth-child(1) {
+	width: 103px;
+	color: #4A691C;
+	font-size: 15px;
+	line-height: 46px;
+}
+#HUD ul.full li .Requests > *:nth-child(2) {
+	color: #FFFFFF;
+	font-size: 21px;
+	line-height: 46px;
+	float: left;
+	font-weight:lighter;
+}
+#HUD ul.full li .Requests > *:nth-child(3) {
+	color: #FFFFFF;
+	font-size: 23px;
+	line-height: 18px;
+	margin: 18px 5px 0;
+}
+#HUD ul.full li .Requests > *:nth-child(4) {
+	color: #47442C;
+	font-size: 13px;
+	line-height: 0px;
+	margin: 18px 2px 0;
+}
+#HUD ul.full li .Requests > *:nth-child(5) {
+	color: #FFFFFF;
+	font-size: 23px;
+	line-height: 18px;
+	margin: 18px 2px 0;
+}
+#HUD ul.full li .Requests > *:nth-child(6) {
+	color: #47442C;
+	font-size: 13px;
+	line-height: 0px;
+	margin: 18px 2px 0;
+}
+#HUD ul.full li .Requests > *:nth-child(7) {
+	color: #FFFFFF;
+	font-size: 23px;
+	line-height: 18px;
+	margin: 18px 2px 0;
+}
+#HUD ul.full li .CacheRate div {
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 46px;
+	float: left;
+	font-weight:lighter;
+}
+#HUD ul.full li .CacheRate div:after {
+	font-size: 14px;
+	content: "%";
+	margin: 0 0 0 3px;
+}
+#HUD ul.full li .CacheRate label {
+	color: #57543E;
+	font-size: 13px;
+	line-height: 13px;
+	margin: 23px 0 0 3px;
+	float: left;
+}
+#HUD ul.full li .Cache > * {
+	float: left;
+}
+#HUD ul.full li .Cache > *:nth-child(1) {
+	width: 65px;
+	color: #47442C;
+	font-size: 13px;
+	line-height: 46px;
+}
+#HUD ul.full li .Cache > *:nth-child(2) {
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 46px;
+	font-weight:lighter;
+}
+#HUD ul.full li .Cache > *:nth-child(3) {
+	color: #FFFFFF;
+	font-size: 23px;
+	line-height: 18px;
+	margin: 18px 0 0 0;
+}
+#HUD ul.full li .Cache > *:nth-child(4) {
+	color: #47442C;
+	font-size: 13px;
+	line-height: 0px;
+	margin: 18px 5px 0;
+}
+#HUD ul.full li .Cache > *:nth-child(5) {
+	color: #FFFFFF;
+	font-size: 23px;
+	line-height: 18px;
+	margin: 18px 0 0 0;
+}
+
+#HUD ul.full li .Request > * {
+	float: left;
+}
+
+#HUD ul.full li .Request > *:nth-child(1) {
+	width: 52px;
+	color: #47442C;
+	font-size: 13px;
+	line-height: 14px;
+	margin: 9px 0 0 0;
+}
+#HUD ul.full li .Request > *:nth-child(2) {
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 46px;
+	font-weight:lighter;
+}
+#HUD ul.full li .Legitimated > * {
+	float: left;
+}
+#HUD ul.full li .Legitimated > *:nth-child(1) {
+	width: 72px;
+	color: #47442C;
+	font-size: 13px;
+	line-height: 46px;
+}
+#HUD ul.full li .Legitimated > *:nth-child(2) {
+	color: #47442C;
+	font-size: 12px;
+	line-height: 0px;
+	margin: 18px 2px 0;
+}
+#HUD ul.full li .Legitimated > *:nth-child(3) {
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 18px;
+	margin: 18px 2px 0 0;
+	font-weight:lighter;
+}
+#HUD ul.full li .Legitimated > *:nth-child(4) {
+	color: #47442C;
+	font-size: 12px;
+	line-height: 0px;
+	margin: 18px 2px 0;
+}
+#HUD ul.full li .Legitimated > *:nth-child(5) {
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 18px;
+	margin: 18px 2px 0 0 ;
+	font-weight:lighter;
+}
+#HUD ul.full li .SiteSpeed > * {
+	float: left;
+}
+#HUD ul.full li .SiteSpeed > *:nth-child(1) {
+	width: 63px;
+	color: #47442C;
+	font-size: 13px;
+	line-height: 46px;
+}
+#HUD ul.full li .SiteSpeed > *:nth-child(2) {
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 46px;
+	font-weight: lighter;
+}
+#HUD ul.full li .SiteSpeed > *:nth-child(2):after {
+	color: #FFFFFF;
+	font-size: 18px;
+	content: "ms";
+	line-height: 46px;
+	margin: 0 0 0 3px;
+}
+#HUD ul.full li .SiteSpeed > *:nth-child(3) {
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 46px;
+	font-weight: lighter;
+}
+#HUD ul.full li .APPs div {
+	color: #5C3739;
+	font-size: 13px;
+	line-height: 46px;
+}
+
+.alert_wrap{
+    position: fixed; 
+    left: 0; 
+    right: 1800px; 
+    top: 80px; 
+    z-index: 107;
+    background: rgba(222, 62, 62, 0.8);
+	display:none;
+}
+    
+.alert_realtime{
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 32px;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+	height:32px;
+}
+
+#alertTitle {
+color: #DE3E3E;
+font-size: 24px;
+font-weight: 300;
+text-transform: uppercase;
+text-align: center;
+margin: 40px 0 24px 0;
+}
+
+.AlertForm{
+	width: 920px;
+	margin: 0 auto;
+}
+
+.AlertForm h1:after {
+width: 100px;
+height: 1px;
+background: #DE3E3E;
+content: " ";
+margin: 6px auto 0;
+display: block;
+}

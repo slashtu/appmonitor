@@ -1,0 +1,12 @@
+.protection {
+  width: 1000px;
+  vertical-align: top;
+  position: relative;
+  display: flex;
+}
+
+.content {
+  margin: 50px 0 70px 225px;
+  padding-left: 20px;
+  border-left: 1px solid #e15829;
+}

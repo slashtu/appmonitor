@@ -1,0 +1,64 @@
+.ProtectionSideBar {
+  height: 1000px;
+  top: 127px;
+  position: fixed;
+  min-width: 250px;
+  padding: 0px 1px 0px 20px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.collapse {
+  margin-top: 83px;
+}
+
+.panel {
+  position: relative;
+  cursor: pointer;
+  width: 184px;
+  color: #676767;
+  text-align: left;
+  padding: 10px 6px;
+  margin-top: 10px;
+  border-bottom: 1px dotted #818181;
+}
+
+.panel > div {
+  width: 198px;
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.panelTotal {
+  font-size: 24px;
+  padding-top: 4px;
+  line-height: 24px;
+  margin: 0px;
+}
+
+.panelUnit {
+  opacity: 0.5;
+}
+
+.active {
+  /*border-right: 5px solid #e15829;*/
+  color: #e15829;
+}
+
+.panel:hover {
+  /*border-right: 5px solid #e15829;*/
+  color: #e15829;
+
+  > svg {
+    fill: #e15829;
+  }
+}
+
+.icon {
+  opacity: 0.5;
+  width: 13px;
+  position: absolute;
+  right: 0px;
+  top: 13px;
+}

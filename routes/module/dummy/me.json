@@ -1,0 +1,106 @@
+{
+  "user": {
+    "cid": "C-859a2a4a-99b8-413c-9f20-bb6371a37f86",
+    "csrf": "ba8c232fd1",
+    "email": "admin@slash.tw",
+    "exp": 1475394870,
+    "roles": "authenticated admin monitor",
+    "scopes": {
+      "ap": 1,
+      "dns": "admin",
+      "op": 1
+    }
+  },
+  "customer": {
+    "id": "C-859a2a4a-99b8-413c-9f20-bb6371a37f86",
+    "name": "Nexusguard",
+    "sites": [
+      {
+        "cid": "C-859a2a4a-99b8-413c-9f20-bb6371a37f86",
+        "siteid": "S-e556d561-199c-496a-b55d-26979ff385fb",
+        "sitename": "WWW.NEXUSGUARD.COM",
+        "bp": true,
+        "waf": false,
+        "vip": {
+          "113.21.195.19": ""
+        },
+        "servicetype": [
+          "web"
+        ]
+      },
+      {
+        "cid": "C-859a2a4a-99b8-413c-9f20-bb6371a37f86",
+        "siteid": "S-76a919a5-a247-4728-9860-817b644bfe85",
+        "sitename": "WWW.NEXUSGUARD.COM01",
+        "bp": true,
+        "waf": false,
+        "vip": {
+          "27.126.207.19": "",
+          "27.126.214.19": ""
+        },
+        "servicetype": [
+          "web"
+        ]
+      },
+      {
+        "cid": "C-859a2a4a-99b8-413c-9f20-bb6371a37f86",
+        "siteid": "S-65c74357-ad88-4128-8896-bf668ae5aa9a",
+        "sitename": "nexusguard.com",
+        "bp": false,
+        "waf": false,
+        "vip": {
+          "27.126.207.20": ""
+        },
+        "servicetype": [
+          "web"
+        ]
+      },
+      {
+        "cid": "C-859a2a4a-99b8-413c-9f20-bb6371a37f86",
+        "siteid": "S-e05e1bf5-2af6-465b-a5d0-97c95a045962",
+        "sitename": "login.nexusguard.com",
+        "bp": false,
+        "waf": false,
+        "vip": {
+          "27.126.215.1": ""
+        },
+        "servicetype": [
+          "web"
+        ]
+      },
+      {
+        "cid": "C-859a2a4a-99b8-413c-9f20-bb6371a37f86",
+        "siteid": "S-a9ffd2e3-0aa6-4145-b546-2674260b3a19",
+        "sitename": "www.nexusguard.com_hubspot",
+        "bp": true,
+        "waf": false,
+        "vip": {
+          "27.126.215.10": ""
+        },
+        "servicetype": [
+          "web"
+        ]
+      }
+    ],
+    "networks": [
+      {
+        "cid": "C-859a2a4a-99b8-413c-9f20-bb6371a37f86",
+        "netid": "N-b2630b15-5673-40e8-6b64-11c993bf7eb2",
+        "router": "",
+        "netname": "NXG UAT",
+        "prefix": [
+          "27.126.195.64/26"
+        ]
+      },
+      {
+        "cid": "C-859a2a4a-99b8-413c-9f20-bb6371a37f86",
+        "netid": "N-c651afcd-2b6f-4d09-5ea2-77f9b46d6791",
+        "router": "",
+        "netname": "NXG STG",
+        "prefix": [
+          "27.126.195.192/26"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+slider {
+	display: inline-block;
+	position: relative;
+	height: 12px;
+	margin: 25px 5px 25px 5px;
+	vertical-align: middle;
+}
+slider span {
+	white-space: nowrap;
+	position: absolute;
+	display: inline-block;
+}
+slider span.base {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+slider span.bar {
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	border-radius: 1em/1em;
+}
+slider span.bar.selection {
+	width: 0;
+	z-index: 1;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+slider span.pointer {
+	cursor: pointer;
+	width: 12px;
+	height: 12px;
+	top: -8px;
+	z-index: 2;
+}
+slider span.pointer:after {
+	content: '';
+	width: 8px;
+	height: 8px;
+	-webkit-border-radius: 1em/1em;
+	border-radius: 1em/1em;
+	position: absolute;
+	top: 10px;
+	left: 2px;
+}
+slider span.bubble {
+	font-size: 12px;
+	top: 18px;
+	padding: 1px 3px 1px 3px;
+	cursor: default;
+}
+/*slider span.bubble:after {
+	content: '';
+	width: 17px;
+	height: 17px;
+	-webkit-border-radius: 1em/1em;
+	border-radius: 1em/1em;
+	position: absolute;
+	top: 3px;
+	left: 1px;
+}*/
+slider span.bubble.selection {
+	top: 18px;
+}
+slider .oneDay {
+	white-space: nowrap;
+	display: block;
+	position: absolute;
+	left: 69px;
+	z-index: 1;
+}
+slider .sevenDays {
+	white-space: nowrap;
+	display: block;
+	position: absolute;
+	left: 147px;
+	z-index: 1;
+}
+slider .bubble.low {
+	display: none !important;
+}
+
+#MainViews slider .bubble.limit.ceiling,
+#MainViews slider .bubble.limit.second,
+#MainViews slider .bubble.limit.three {
+
+}

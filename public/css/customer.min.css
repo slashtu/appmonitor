@@ -1,0 +1,85 @@
+.header.customer{position:relative;}
+.customer-menu{width:100%;height:36px;background:#F2F2F2;-webkit-box-shadow:0 2px 5px 0 rgba(50,50,50,0.2);-moz-box-shadow:0 2px 5px 0 rgba(50,50,50,0.2);box-shadow:0 2px 5px 0 rgba(50,50,50,0.2);}
+.customer-menu ul{width:920px;margin:0 auto;}
+.customer-menu ul li{color:#4A691C;font-size:14px;line-height:36px;padding:0 15px;float:left;}
+.customer-menu ul li.active{background:#94BF4F;}
+.customer-menu ul li a{color:#999999;font-size:14px;line-height:36px;}
+.customer-menu ul li.active a{color:#4A691C;}
+.MemberForm{width:920px;margin:0 auto;}
+.MemberForm h1{color:#94BF4F;font-size:24px;font-weight:300;text-transform:uppercase;text-align:left;margin:40px 0 0 0;display:inline-block;}
+.MemberForm h1:after{width:100px;height:1px;background:#94BF4F;content:" ";margin:6px auto 0;display:block;}
+.MemberForm h2{color:#666666;font-size:30px;font-weight:normal;margin:30px 0 0 0;}
+.MemberForm h4{color:#666666;font-size:14px;font-weight:normal;margin:15px 0;}
+.MemberForm>div{}
+.MemberForm>form{width:400px;}
+.MemberForm>form>div{margin:16px 0 0 0;}
+.MemberForm>form>div:last-child{margin:40px 0 0 0;}
+.MemberForm>form>div>button{width:240px;height:46px;font-size:24px;line-height:46px;padding:0;background:#94BF4F;}
+.News{width:940px;margin:0 auto;}
+.NewsContent{width:690px;min-height:400px;margin:0 20px 0 0;float:left;}
+.NewsContent h1{color:#94BF4F;font-size:24px;font-weight:normal;text-transform:uppercase;text-align:left;margin:40px 0 0 0;display:inline-block;}
+.NewsContent h1:after{width:40px;height:1px;background:#94BF4F;content:" ";margin:6px auto 0;display:block;}
+.NewsContent label{color:#999999;font-size:14px;font-weight:normal;margin:30px 0 0;display:block;}
+.NewsContent h2{color:#666666;font-size:30px;font-weight:normal;margin:5px 0 0;}
+.NewsContent p{color:#666666;font-size:14px;line-height:1.6;margin:10px 0 0 0;}
+.NewsList{width:230px;float:left;}
+.NewsList h1{width:130px;height:25px;color:#94BF4F;font-size:21px;font-weight:normal;text-align:left;background:url('/clearwatch/assets/css/images/news_arrow.png') no-repeat right center transparent!important;margin:40px 10px 0;display:inline-block;}
+.NewsList .Pagination{margin:0 10px;}
+.NewsList .Pagination div:nth-child(1){float:left;}
+.NewsList .Pagination div:nth-child(2){float:right;}
+.NewsList .PaginationPrevious{width:14px;height:8px;background:url('/clearwatch/assets/css/images/news_btn_pre.png') no-repeat 0 0 transparent!important;margin:0 12px 0 0;display:inline-block;}
+.NewsList .PaginationPrevious.disabled{background:url('/clearwatch/assets/css/images/news_btn_pre_disable.png') no-repeat 0 0 transparent!important;}
+.NewsList .PaginationNext{width:14px;height:8px;background:url('/clearwatch/assets/css/images/news_btn_next.png') no-repeat 0 0 transparent!important;display:inline-block;}
+.NewsList .PaginationNext.disabled{background:url('/clearwatch/assets/css/images/news_btn_next_disable.png') no-repeat 0 0 transparent!important;}
+.NewsList ul li{padding:0;float:none;display:block;}
+.NewsList ul li a{color:#666666;padding:8px 10px;display:block;}
+.NewsList ul li a:hover{background:#F2F2F2;}
+.NewsList ul li:not(:last-child) a{border-bottom:1px solid #CCCCCC;}
+.NewsList ul li .news-date{color:#999999;font-size:12px;}
+.NewsList ul li .news-title{color:#666666;font-size:14px;}
+.TicketForm{width:920px;margin:0 auto;}
+.TicketForm h1{color:#94BF4F;font-size:24px;font-weight:normal;text-transform:uppercase;text-align:left;margin:40px 0 0 0;display:inline-block;}
+.TicketForm h1:after{width:200px;height:1px;background:#94BF4F;content:" ";margin:6px auto 0;display:block;}
+.TicketForm h4{color:#666666;font-size:14px;font-weight:normal;margin:15px 0;}
+.TicketForm>div{}
+.TicketForm>form{}
+.TicketForm>form>div{width:500px;margin:16px 0 0 0;}
+.TicketForm>form>div.tableForm{width:100%;}
+.TicketForm>form>div:last-child{margin:40px 0 0 0;}
+.TicketForm>form>div textarea{width:500px;height:200px;}
+.TicketForm>form>div>button{width:240px;height:46px;font-size:24px;line-height:46px;padding:0;background:#94BF4F;}
+.TicketForm form h2{color:#94BF4F;font-size:18px;font-weight:normal;margin:15px 0;}
+.TicketForm form h3{color:#666666;font-size:12px;font-weight:normal;margin:15px 0;}
+.TicketForm thead tr th{color:#4a691c;background:#94BF4F;text-align:center;vertical-align:middle;line-height:1;border:1px solid #FFFFFF;}
+.TicketForm tbody tr td{text-align:center;vertical-align:middle;padding:8px 5px;border:0;}
+.TicketForm tbody tr td input{width:100%;text-align:center;}
+.TicketForm tbody tr td select{height:auto;padding:3px 10px;}
+.TicketForm tbody tr td option{text-align:center;}
+.TicketForm>form>div:last-child{text-align:center;margin:40px auto;}
+.Policy>section{width:920px;margin:0 auto;}
+.Policy h1{color:#94BF4F;font-size:24px;font-weight:lighter;text-transform:uppercase;text-align:left;margin:40px 0 0 0;display:inline-block;}
+.Policy h1:after{width:40%;height:1px;background:#94BF4F;content:" ";margin:6px auto 0;display:block;}
+.Policy h2{color:#666666;font-size:30px;font-weight:lighter;}
+.Policy h5{color:#999999;font-size:14px;font-weight:lighter;}
+.Policy h6{color:#666666;font-size:14px;font-weight:lighter;line-height:1.4;padding-bottom:30px;margin-bottom:30px;border-bottom:1px solid #E6E6E6;}
+.Policy h3{color:#94BF4F;font-size:24px;font-weight:lighter;}
+.Policy p{color:#666666;font-size:14px;font-weight:lighter;}
+.upload_table{border-top:3px solid #94bf4f;table-layout:fixed;}
+.upload_table th{font-size:14px;color:#94bf4f;text-align:left;padding:30px 10px 10px 10px;background-color:#ffffff;}
+.upload_table tr:nth-child(even){height:36px;font-size:14px;color:#666666;text-align:left;background-color:#f2f2f2;}
+.upload_table tr:nth-child(odd){height:36px;font-size:14px;color:#666666;text-align:left;background-color:#ffffff;}
+.upload_table td{padding:0 10px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.upload_table a{color:#94bf4f;text-decoration:none;}
+.upload_table a:hover{color:#c4de96;text-decoration:none;}
+.btn_upload{display:block;width:33px;height:21px;background:url('/clearwatch/assets/css/images/ssl_upload.png') no-repeat 12px 0;}
+.btn_upload:hover{background:url('/clearwatch/assets/css/images/ssl_upload_over.png') no-repeat 12px 0;}
+.alert_table{border-top:3px solid #DE3E3E;table-layout:fixed;}
+.alert_table th{font-size:14px;color:#ED7479;text-align:left;padding:30px 10px 10px 10px;background-color:#ffffff;}
+.alert_table tr:nth-child(even){height:36px;font-size:14px;color:#666666;text-align:left;background-color:#f2f2f2;}
+.alert_table tr:nth-child(odd){height:36px;font-size:14px;color:#666666;text-align:left;background-color:#ffffff;}
+.alert_table td{padding:0 10px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.alert_table a{color:#94bf4f;text-decoration:none;}
+.alert_table a:hover{color:#c4de96;text-decoration:none;}
+.btn_upload{display:block;width:33px;height:21px;background:url('/clearwatch/assets/css/images/ssl_upload.png') no-repeat 12px 0;}
+.btn_upload:hover{background:url('/clearwatch/assets/css/images/ssl_upload_over.png') no-repeat 12px 0;}
+/

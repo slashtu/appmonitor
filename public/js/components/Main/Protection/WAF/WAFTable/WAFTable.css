@@ -1,0 +1,45 @@
+.Content {
+  overflow:auto;
+  /*height:600px;*/
+}
+
+.rowbase {
+  display:flex;
+  font-size:13px;
+  line-height:36px;
+  font-size:13px;
+  > div {
+    padding:0px 12px;
+    text-align:left;
+    &:nth-child(1) {
+      min-width:72px;
+    }
+    &:nth-child(2) {
+      min-width:180px;
+    }
+    &:nth-child(3) {
+      min-width:140px;
+    }
+    &:nth-child(4) {
+      min-width:140px;
+    }
+    &:nth-child(5) {
+      min-width:80px;
+    }
+    &:nth-child(6) {
+      min-width:100px;
+    }
+  }
+}
+
+.title {
+  color: #e15829;
+  composes: rowbase;
+  border-bottom: 1px solid #959595;
+}
+
+.noThreat {
+  margin-top: 16px;
+  color: #e0e0e0;
+  font-size:24px;
+}

@@ -1,0 +1,17 @@
+.DropItemBase {
+  display:block;
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  min-width:100px;
+  cursor:pointer;
+}
+
+.DropItemSelected {
+  color:#e15829;
+  composes: DropItemBase;
+}
+
+.DropItem {
+  composes:DropItemBase;
+}

@@ -1,0 +1,11 @@
+.WAFItem {
+  border-bottom:1px solid #DDDDDD;
+  cursor:pointer;
+  &:hover {
+    background: #F2F2F2 ;
+  }
+}
+
+.container {
+  composes: rowbase from '../WAFTable.css'; 
+}

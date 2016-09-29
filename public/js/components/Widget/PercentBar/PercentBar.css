@@ -1,0 +1,98 @@
+.detail {
+  position: absolute;
+  display: none;
+  border: 1px solid #fff;
+  background-color: #585858;
+  padding: 9px 8px 1px 8px;
+  color: #fff;
+  top: -8px;
+  left: 160px;
+
+  p {
+    width:60px;
+    line-height: 12px;
+  }
+}
+
+.detail:after {
+    content: '';
+    position: absolute;
+    bottom: 24px;
+    width: 10px;
+    height: 10px;
+    /*border-bottom: 1px solid #e15829;*/
+    /*border-right: 1px solid #e15829;*/
+    background: #585858;
+    -webkit-transform: rotate(-45deg);
+     transform: rotate(-45deg); 
+    left: -5px;
+  }
+
+.chart{
+  padding: 0px 6px 10px 6px;
+  color: #818181;
+  margin-left: 10px;
+}
+
+.p {
+  white-space: initial;
+  font-size: 13px;
+  margin: 0;
+  padding: 0 0 4px 0;
+  line-height: 13px;
+}
+
+.ul{
+  list-style-type: disc;
+
+  li {
+    padding-bottom: 6px;
+    position: relative;
+  }
+
+  li:hover .detail{
+    display: block;
+  }
+
+  li > div {
+    height: 8px;
+    border-radius: 2px;
+    transition: width 1s ease-in-out;
+  }
+
+  li:nth-child(1) div {
+    background-color: #EDE16F;
+  }
+
+  li:nth-child(2) div {
+    background-color: #EABE5E;
+  }
+
+  li:nth-child(3) div {
+    background-color: #E97D62;
+  }
+
+  li:nth-child(4) div {
+    background-color: #CF4F4F;
+  }
+
+  li:nth-child(5) div {
+    background-color: #AF577D;
+  }
+
+  li:nth-child(6) div {
+    background-color: #904D7F;
+  }
+
+  li:nth-child(7) div {
+    background-color: #6C416F;
+  }
+
+  li:nth-child(8) div {
+    background-color: #483761;
+  }
+
+  li:nth-child(9) div {
+    background-color: #2E3564;
+  }
+}

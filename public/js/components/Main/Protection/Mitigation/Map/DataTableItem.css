@@ -1,0 +1,11 @@
+.iconContainer {
+  vertical-align: middle;
+}
+
+.icon {
+  width: 13px;
+}
+
+.active {
+  fill: #e15829;
+}

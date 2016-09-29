@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en"  itemscope="itemscope" >
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Guard 2.0 - Nexusguard</title>
+    	
+    	<meta http-equiv="x-dns-prefetch-control" content="on">
+    	<link rel="dns-prefetch" href="//g2ws.nexusguard.com">
+    	<link rel="dns-prefetch" href="//g2api.nexusguard.com">
+    	<link rel="dns-prefetch" href="//g2api2.nexusguard.com">
+    	<link rel="dns-prefetch" href="//www.google.com">
+    	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+    	<link rel="dns-prefetch" href="//www.gstatic.com">
+    	<link rel="dns-prefetch" href="//maps.gstatic.com">
+    	<link rel="dns-prefetch" href="//csi.gstatic.com">
+    	<link rel="dns-prefetch" href="//mts0.googleapis.com">
+    	<link rel="dns-prefetch" href="//mts1.googleapis.com">
+    	<link rel="dns-prefetch" href="//ajax.googleapis.com">
+    	
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta property="fb:app_id" content="APP_ID">
+        <meta property="og:title" content="Guard 2.0 - Nexusguard">
+        <meta property="og:description" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="APP_URL">
+        <meta property="og:image" content="APP_LOGO">
+        <meta property="og:site_name" content="">
+        <meta property="fb:admins" content="APP_ADMIN">
+    	<link rel="shortcut icon" href="/clearwatch/assets/img/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    	<link href='//fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    	<!-- <link rel="stylesheet" href="{{file}}"> -->
+        <link rel="stylesheet" href="/assets/css/aggregated.css">
+        <!--[if lt IE 9]>
+    		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    	<![endif]-->
+    </head>	
+	<body class="landing-page">
+		<section class="landing"></section>
+		<section class="content">
+            <div id="LoginForm" class="clearfix" data-ng-controller="UsersController" data-ng-init="initLoginForm()">
+                <section>
+                    <form autocomplete="off" ng-submit="login()" class="form-horizontal row-fluid">
+                        <h2>Welcome to</h2>
+                        <h1>GUARD 2.0</h1>
+                        <h3>Visualize your business.</h3>
+                        <!-- <div class="alert alert-danger animated fadeIn" ng-show="loginerror">{{loginerror}}</div> -->
+                        <div>
+                            <input required id="email" type="email" name="email" placeholder="Email Address" class="form-control" ng-model="user.email"/>
+                        </div>
+                        <div>
+                            <input required id="password" type="password" name="password" placeholder="Password" class="form-control" ng-model="user.password"/>
+                        </div>
+                        <div class="checkbox-row">
+                            <input type="checkbox" id="remember" name="remember" ng-model="user.rememberMe" />
+                            <label for="remember">Remember me</label>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-primary">Login</button>    
+                        </div>
+                    </form>
+                    <a ui-sref='Forgot Password' class="show-signup">Forgot Password?</a>
+                </section>
+            </div>
+		</section>
+		<section class="footer">
+			<a href="https://www.nexusguard.com/" target="_blank"><div class="nxg-logo"></div></a>
+			Copyright © 2014 Nexusguard Limited. All rights reserved.
+		</section>
+	</body>
+</html>

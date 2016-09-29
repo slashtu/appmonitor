@@ -1,0 +1,298 @@
+html{height:100%;}
+body{height:100%;font-size:12px;font-family:'Lato',sans-serif;font-weight:normal;}
+#tcp_body{height:initial;font-size:12px;font-family:'Lato',sans-serif;font-weight:normal;}
+*[ng-click]{cursor:pointer;}
+a,a:hover,a:focus{text-decoration:none;outline:none;}
+a:visited{color:#333333;text-decoration:none;}
+a:hover{color:#18E8E8;text-decoration:none;}
+ul,dl,ol{list-style:none;margin:0;padding:0;}
+label{font-weight:normal;margin:0;}
+#widthSensor{width:100%;height:0;position:absolute;top:-9999px;}
+::-ms-tooltip{display:none;}
+slider{width:270px;}
+.alert{border-radius:0;padding:10px;}
+.btn.btn-primary{border:0;border-radius:0;background:#8BC53F;}
+input.form-control{border:1px solid #E6E6E6;border-radius:0;background:#F2F2F2;}
+select{width:100%;height:46px;background:#F2F2F2;padding:12px 10px;border:0;}
+.text-success,.text-danger,.text-warning{padding:15px;}
+.ui-tooltip{color:#666666;font-size:14px;background:#F4F4F4;border:1px solid #FFFFFF;box-shadow:0 0 3px rgba(0,0,0,0.3);border-radius:0;}
+.for320{display:none;}
+section.content{position:relative;}
+section.footer{margin:20px 0;text-align:center;}
+section.footer a:hover{color:#666666;text-decoration:underline;}
+.nxg-logo{background:url('/clearwatch/assets/css/images/logo_nxg.png') no-repeat 0 0 transparent;position:relative;width:176px;height:18px;margin:0 auto 10px auto;}
+section.footer br{display:none;}
+.overview.countUpSuffix-none:after{font-size:12px;content:' ';}
+.overview.countUpSuffix-kilo:after{font-size:12px;content:' K';}
+.overview.countUpSuffix-mega:after{font-size:12px;content:' M';}
+.overview.countUpSuffix-giga:after{font-size:12px;content:' G';}
+.bandwidth.countUpSuffix-none:after{font-size:12px;content:' ';}
+.bandwidth.countUpSuffix-kilo:after{font-size:12px;content:' K';}
+.bandwidth.countUpSuffix-mega:after{font-size:12px;content:' M';}
+.bandwidth.countUpSuffix-giga:after{font-size:12px;content:' G';}
+.CacheRate.countUp:after{font-size:16px;content:"%";}
+#MainViews{height:100%;margin-top:160px;}
+#MainViews:after,#CustomerMainView:after,#AdminMainView:after{width:400px;height:50px;margin-left:-200px;display:block;position:relative;left:50%;bottom:-20px;}
+#MainViews.focus{margin-top:90px;}
+#MainViews>div{width:1000px;white-space:nowrap;overflow:hidden;}
+#MainViews>div>div{position:relative;left:0;z-index:100;}
+#MainViews>div>div>section{width:1000px;padding:20px 0 0;vertical-align:top;position:relative;display:inline-block;}
+#MainViews>div>div>section>div{min-height:300px;text-align:center;padding:40px 0 0;margin:0 0 80px 0;position:relative;}
+#MainViews>div>div>section>div>h1{font-size:18px;font-weight:normal;line-height:1;text-transform:uppercase;margin:0 0 5px 0;}
+#MainViews>div>div>section>div>h1:after{width:70px;height:1px;content:" ";margin:6px auto 0;display:block;}
+#MainViews>div>div>section#MainViews-Biz>div>h1{color:#4FA8A1;}
+#MainViews>div>div>section#MainViews-Biz>div>h1:after{background:#4FA8A1;}
+#MainViews>div>div>section#MainViews-Protection>div>h1{color:#94BF4F;}
+#MainViews>div>div>section#MainViews-Protection>div>h1:after{background:#94BF4F;}
+#MainViews>div>div>section#MainViews-Performance>div>h1{color:#9B9887;}
+#MainViews>div>div>section#MainViews-Performance>div>h1:after{background:#9B9887;}
+.MainViewsMenu{display:none;position:fixed;top:240px;left:0;z-index:103;}
+.MainViewsMenu li:not(:last-child):after{width:27px;height:8px;border-width:0 1px 0 0;border-style:solid;content:" ";display:block;position:relative;left:-13px;}
+.MainViewsMenu li a{width:27px;height:27px;display:block;}
+#MainViews-Biz .LiveMaps .angular-google-map-container{width:920px;height:500px;margin:30px auto 0;background-color:#FFFFFF!important;background:url('/clearwatch/assets/css/images/live_data_map.jpg') no-repeat -2px 0 transparent!important;}
+#MainViews-Biz .LiveMaps .angular-google-map-container:after{width:920px;height:500px;margin:0 auto;position:relative;content:" ";display:block;}
+#MainViews-Biz .MainViewsMenu li:after{border-color:#4FA8A1;}
+#MainViews-Biz .MainViewsMenu li:nth-child(1) a{background:url('/clearwatch/assets/css/images/pulse_menu_map.png') no-repeat 0 0 transparent;}
+#MainViews-Biz .MainViewsMenu li:nth-child(1) a.active,#MainViews-Biz .MainViewsMenu li:nth-child(1) a:hover{background:url('/clearwatch/assets/css/images/pulse_menu_map-on.png') no-repeat 0 0 transparent;}
+#MainViews-Biz .MainViewsMenu li:nth-child(2) a{background:url('/clearwatch/assets/css/images/pulse_menu_trend.png') no-repeat 0 0 transparent;}
+#MainViews-Biz .MainViewsMenu li:nth-child(2) a.active,#MainViews-Biz .MainViewsMenu li:nth-child(2) a:hover{background:url('/clearwatch/assets/css/images/pulse_menu_trend-on.png') no-repeat 0 0 transparent;}
+#MainViews-Biz .MainViewsMenu li:nth-child(3) a{background:url('/clearwatch/assets/css/images/pulse_menu_analystic.png') no-repeat 0 0 transparent;}
+#MainViews-Biz .MainViewsMenu li:nth-child(3) a.active,#MainViews-Biz .MainViewsMenu li:nth-child(3) a:hover{background:url('/clearwatch/assets/css/images/pulse_menu_analystic-on.png') no-repeat 0 0 transparent;}
+#MainViews-Protection .MainViewsMenu li:after{border-color:#94BF4F;}
+#MainViews-Protection .MainViewsMenu li:nth-child(1) a{background:url('/clearwatch/assets/css/images/protect_menu_map.png') no-repeat 0 0 transparent;}
+#MainViews-Protection .MainViewsMenu li:nth-child(1) a.active,#MainViews-Protection .MainViewsMenu li:nth-child(1) a:hover{background:url('/clearwatch/assets/css/images/protect_menu_map-on.png') no-repeat 0 0 transparent;}
+#MainViews-Protection .MainViewsMenu li:nth-child(2) a{background:url('/clearwatch/assets/css/images/protect_menu_trend.png') no-repeat 0 0 transparent;}
+#MainViews-Protection .MainViewsMenu li:nth-child(2) a.active,#MainViews-Protection .MainViewsMenu li:nth-child(2) a:hover{background:url('/clearwatch/assets/css/images/protect_menu_trend-on.png') no-repeat 0 0 transparent;}
+#MainViews-Protection .MainViewsMenu li:nth-child(3) a{background:url('/clearwatch/assets/css/images/protect_menu_category.png') no-repeat 0 0 transparent;}
+#MainViews-Protection .MainViewsMenu li:nth-child(3) a.active,#MainViews-Protection .MainViewsMenu li:nth-child(3) a:hover{background:url('/clearwatch/assets/css/images/protect_menu_category-on.png') no-repeat 0 0 transparent;}
+#MainViews-Protection .MainViewsMenu li:nth-child(4) a{background:url('/clearwatch/assets/css/images/protect_menu_log.png') no-repeat 0 0 transparent;}
+#MainViews-Protection .MainViewsMenu li:nth-child(4) a.active,#MainViews-Protection .MainViewsMenu li:nth-child(4) a:hover{background:url('/clearwatch/assets/css/images/protect_menu_log-on.png') no-repeat 0 0 transparent;}
+#MainViews-Performance .DataCenterMaps .DataCenterMapsCanvas{width:920px;height:452px;margin:25px auto 0;background-color:#FFFFFF!important;background:url('/clearwatch/assets/css/images/datacenter_map.jpg') repeat 0 0 transparent!important;}
+#MainViews-Performance .MainViewsMenu li:after{border-color:#9B9887;}
+#MainViews-Performance .MainViewsMenu li:nth-child(1) a{background:url('/clearwatch/assets/css/images/perform_menu_map.png') no-repeat 0 0 transparent;}
+#MainViews-Performance .MainViewsMenu li:nth-child(1) a.active,#MainViews-Performance .MainViewsMenu li:nth-child(1) a:hover{background:url('/clearwatch/assets/css/images/perform_menu_map-on.png') no-repeat 0 0 transparent;}
+#MainViews-Performance .MainViewsMenu li:nth-child(2) a{background:url('/clearwatch/assets/css/images/perform_menu_trend.png') no-repeat 0 0 transparent;}
+#MainViews-Performance .MainViewsMenu li:nth-child(2) a.active,#MainViews-Performance .MainViewsMenu li:nth-child(2) a:hover{background:url('/clearwatch/assets/css/images/perform_menu_trend-on.png') no-repeat 0 0 transparent;}
+#MainViews-APPs>div{width:960px;margin:0 auto!important;}
+#MainViews-APPs h3{font-size:24px;font-weight:normal;line-height:1.5;text-align:left;padding:65px 0 0 0;margin:0;border-style:solid;border-width:0 0 1px 0;}
+#MainViews-APPs h4{color:#94BF4F;font-size:18px;font-weight:normal;text-align:left;padding:40px 0 0 0;margin:20px 0 0 0;}
+#MainViews-APPs ul{margin:10px 0 0 0;}
+#MainViews-APPs ul li{text-align:left;padding:16px 0;position:relative;}
+#MainViews-APPs ul li:not(:last-child){border-bottom:1px solid #E6E6E6;}
+#MainViews-APPs ul li:after{width:37px;height:17px;content:" ";position:absolute;right:0;top:16px;}
+#MainViews-APPs ul li a{color:#666666;font-size:14px;line-height:1.2;}
+#MainViews-APPs ul li.apps-disabled a{color:#CCCCCC;}
+#MainViews-APPs .MainViews-App-Performance h3{color:#9B9887;border-color:#9B9887;background:url('/clearwatch/assets/css/images/app_perform.png') no-repeat 0 top transparent;}
+#MainViews-APPs .MainViews-App-Performance ul li:after{background:url('/clearwatch/assets/css/images/app_perform_switch.png') no-repeat 0 top transparent;}
+#MainViews-APPs .MainViews-App-Protection h3{color:#94BF4F;border-color:#94BF4F;background:url('/clearwatch/assets/css/images/app_protect.png') no-repeat 0 top transparent;}
+#MainViews-APPs h4.apps-ddos-protection{background:url('/clearwatch/assets/css/images/app_protect_s.png') no-repeat 0 top transparent;}
+#MainViews-APPs h4.apps-web-application-firewall{background:url('/clearwatch/assets/css/images/app_firewall.png') no-repeat 0 top transparent;}
+#MainViews-APPs h4.apps-others{background:url('/clearwatch/assets/css/images/app_other.png') no-repeat 0 top transparent;}
+#MainViews-APPs .MainViews-App-Protection ul li:after{background:url('/clearwatch/assets/css/images/app_protect_switch.png') no-repeat 0 top transparent;}
+#MainViews-APPs .MainViews-App-BuiltInAPP h3{color:#ECAFB2;border-color:#ECAFB2;background:url('/clearwatch/assets/css/images/app_buildin.png') no-repeat 0 top transparent;}
+#MainViews-APPs .MainViews-App-BuiltInAPP ul li:after{background:url('/clearwatch/assets/css/images/app_buildin_switch.png') no-repeat 0 top transparent;top:58px;}
+#MainViews-APPs .MainViews-App-BuiltInAPP ul{margin:0;}
+#MainViews-APPs .MainViews-App-BuiltInAPP ul li{padding-top:58px;}
+#MainViews-APPs .apps-business-pulse{background:url('/clearwatch/assets/css/images/app_pulse.png') no-repeat 0 18px transparent;}
+#MainViews-APPs .apps-clearscan{background:url('/clearwatch/assets/css/images/app_clearscan.png') no-repeat 0 18px transparent;}
+#MainViews-APPs .apps-ddos-assessment{background:url('/clearwatch/assets/css/images/app_assessment.png') no-repeat 0 18px transparent;}
+#MainViews-APPs .apps-cloud-based-ddos-detection{background:url('/clearwatch/assets/css/images/app_cloud.png') no-repeat 0 18px transparent;}
+#MainViews-APPs .MainViews-App-3rdPartyAPPs h3{color:#CCCCCC;border-color:#CCCCCC;background:url('/clearwatch/assets/css/images/app_3rd.png') no-repeat 0 top transparent;}
+#MainViews-APPs .MainViews-App-3rdPartyAPPs ul li:after{background:url('/clearwatch/assets/css/images/app_3rd_switch.png') no-repeat 0 top transparent;}
+#MainViews-APPs ul li.apps-disabled:after{background:url('/clearwatch/assets/css/images/app_switch_disabled.png') no-repeat 0 top transparent;}
+.Page-Buiness-Pulse-1{width:1000px;height:521px;background:url('/clearwatch/assets/css/images/page_pulse-1.png') no-repeat center transparent;}
+.Page-Buiness-Pulse-2{width:1000px;height:466px;background:url('/clearwatch/assets/css/images/page_pulse-2.png') no-repeat center transparent;}
+.Page-Buiness-Pulse-3{width:1000px;height:551px;background:url('/clearwatch/assets/css/images/page_pulse-3.png') no-repeat center transparent;}
+.Page-Protection-1{width:1000px;height:521px;background:url('/clearwatch/assets/css/images/page_protect-1.png') no-repeat center transparent;}
+.Page-Protection-2{width:1000px;height:466px;background:url('/clearwatch/assets/css/images/page_protect-2.png') no-repeat center transparent;}
+.Page-Protection-3{width:1000px;height:523px;background:url('/clearwatch/assets/css/images/page_protect-3.png') no-repeat center transparent;}
+.Page-Protection-4{width:1000px;height:489px;background:url('/clearwatch/assets/css/images/page_protect-4.png') no-repeat center transparent;}
+.Page-Performance-1{width:1000px;height:521px;background:url('/clearwatch/assets/css/images/page_perform-1.png') no-repeat center transparent;}
+.Page-Performance-2{width:1000px;height:466px;background:url('/clearwatch/assets/css/images/page_perform-2.png') no-repeat center transparent;}
+.Datatables{border-width:2px 0 0 0;border-style:solid;position:absolute;bottom:0;left:40px;}
+.Datatables>div:nth-child(1){height:30px;padding:0 5px;margin:2px 0 3px;}
+.Datatables>div:nth-child(1) label{font-size:16px;font-weight:normal;padding:0 5px;float:left;}
+.Datatables .DatatablesSmall{width:20px;height:30px;background:url('/clearwatch/assets/css/images/liveip_table_close.png') no-repeat center transparent;float:right;display:block;}
+.Datatables .DatatablesSmall.DatatablesSmallOpen{background:url('/clearwatch/assets/css/images/liveip_table_open.png') no-repeat center transparent;}
+.Datatables>div.DatatablesTable{height:210px;max-height:210px;padding:0 3px;margin:3px 0;overflow:auto;}
+.Datatables table thead tr th{font-size:12px;font-weight:normal;line-height:30px;padding:0 8px;}
+.Datatables table tbody tr:nth-child(2n+1){background:#FFFFFF;}
+.Datatables table tbody tr td{color:#266660;font-size:12px;line-height:1;text-align:left;padding:12px 8px;overflow:hidden;}
+.Datatables table tbody tr td>*{color:#266660;font-size:12px;line-height:1;text-align:left;display:block;}
+.Datatables table tbody tr td>a{max-width:100px;text-align:justify;text-overflow:ellipsis;overflow:hidden;}
+#MainViews-Biz .Datatables{width:920px;background:rgba(182,219,216,0.7);border-color:#4FA8A1;}
+#MainViews-Biz .Datatables>div:nth-child(1) label{color:#205752;}
+#MainViews-Biz .Datatables table thead tr th{color:#4FA8A1;}
+#MainViews-Biz .Datatables table tbody tr td{color:#266660;}
+#MainViews-Biz .Datatables table tbody tr td *{color:#266660;}
+.Datatables.LiveData .DatatablesTable table tr td:nth-child(1){width:150px;}
+.Datatables.LiveData .DatatablesTable table tr td:nth-child(2){width:150px;}
+.Datatables.LiveData .DatatablesTable table tr td:nth-child(3){width:150px;}
+.Datatables.LiveData .DatatablesTable table tr td:nth-child(4){width:120px;}
+.Datatables.LiveData .DatatablesTable table tr td:nth-child(5){width:390px;}
+.Datatables.LiveData .DatatablesTable table tr td:nth-child(5) a{max-width:390px;}
+#MainViews-Protection .Datatables{width:560px;background:rgba(220,234,196,0.7);border-color:#92BC50;}
+#MainViews-Protection .Datatables>div:nth-child(1) label{color:#4A691C;}
+#MainViews-Protection .Datatables table thead tr th{color:#94BF4F;}
+#MainViews-Protection .Datatables table tbody tr td{color:#5F7A34;}
+#MainViews-Protection .Datatables table tbody tr td *{color:#5F7A34;}
+.Datatables.Threats .DatatablesTable table tr td:nth-child(1){width:200px;}
+.Datatables.Threats .DatatablesTable table tr td:nth-child(2){width:180px;}
+.Datatables.Threats .DatatablesTable table tr td:nth-child(3){width:180px;}
+#MainViews-Protection .Datatables.WAFLogs{width:930px;height:468px;margin:30px auto 0;border-width:4px 0 0 0;position:relative;left:auto;bottom:auto;}
+#MainViews-Protection .Datatables.WAFLogs>div:nth-child(1){}
+#MainViews-Protection .Datatables.WAFLogs>div:nth-child(2){height:426px;max-height:426px;}
+.Datatables.WAFLogs .DatatablesTable table tr td:nth-child(1){width:140px;}
+.Datatables.WAFLogs .DatatablesTable table tr td:nth-child(2){width:170px;}
+.Datatables.WAFLogs .DatatablesTable table tr td:nth-child(3){width:300px;}
+.Datatables.WAFLogs .DatatablesTable table tr td:nth-child(3) a{max-width:300px;}
+.Datatables.WAFLogs .DatatablesTable table tr td:nth-child(4){width:150px;}
+.Datatables.WAFLogs .DatatablesTable table tr td:nth-child(5){width:110px;}
+#MainViews-Protection .MoreLogs{width:930px;color:#FFFFFF;font-size:16px;line-height:30px;background:#94BF4F;margin:5px auto 0;display:block;}
+.Biz3>.topContents{width:450px;height:150px;position:absolute;left:75px;top:100px;z-index:100;}
+.Biz3 .topContents table tr td{padding:10px 0;}
+.Biz3 .topContents table tr td:nth-child(1) div:nth-child(1){color:#4FA8A1;font-size:18px;line-height:1;text-transform:uppercase;}
+.Biz3 .topContents table tr td:nth-child(1) div:nth-child(2){color:#4FA8A1;font-size:14px;line-height:1;}
+.Biz3 .topContents table tr td:nth-child(2){padding:0 0 0 10px;}
+.Biz3 .topContents table tr td:nth-child(2) div:nth-child(1){text-align:left;padding:0 0 0 18px;background:url('/clearwatch/assets/css/images/icon-link.png') no-repeat 0 center transparent;}
+.Biz3 .topContents table tr td:nth-child(2) div:nth-child(1) a{max-width:400px;color:#808080;font-size:14px;line-height:1;white-space:nowrap;text-align:justify;text-overflow:ellipsis;overflow:hidden;}
+.Biz3 .topContents table tr td:nth-child(2) div:nth-child(2){color:#808080;font-size:14px;line-height:1;text-align:left;padding:0 0 0 18px;background:url('/clearwatch/assets/css/images/icon-clock.png') no-repeat 0 center transparent;}
+.PieChartsCenter{position:absolute;}
+.PieChartsCenter hr{border-color:#CCCCCC;margin:5px 0;}
+.PieChartsCenter label{color:#808080;font-size:12px;font-weight:normal;}
+.PieChartsCenter h1{font-size:16px;margin:0;}
+.PieChartsCenter>div{font-size:16px;}
+.PieChartsCenter h1{color:#4FA8A1;}
+.PieChartsCenter>div{color:#4FA8A1;}
+#MainViews-Protection .PieChartsCenter>div{color:#94BF4F;}
+#MainViews-Biz .PieChartsCenter>div:after{content:"%";}
+.PieChartsCenter.Visitors{width:80px;left:80px;top:330px;}
+.PieChartsCenter.Visitors label:nth-child(1){color:#4FA8A1;font-size:16px;}
+.PieChartsCenter.Visitors>div:nth-child(2){color:#4FA8A1;}
+.PieChartsCenter.Visitors label:nth-child(4){color:#94BF4F;font-size:16px;}
+.PieChartsCenter.Visitors>div:nth-child(5){color:#94BF4F;}
+.PieChartsCenter.Device{width:70px;left:305px;top:410px;}
+.PieChartsCenter.Traffic{width:80px;left:470px;top:360px;}
+.PieChartsCenter.Browsers{width:75px;left:640px;top:265px;}
+.PieChartsCenter.SearchEngine{width:90px;left:825px;top:340px;}
+.PieChartsCenter.SearchEngine label{font-size:14px;}
+.PieChartsCenter.SearchEngine hr{margin:10px 0;}
+.PieChartsCenter.SearchEngine h1{font-size:21px;}
+.PieChartsCenter.SearchEngine div{font-size:21px;}
+.PieChartsCenter.DDoS{width:276px;left:142px;top:330px;}
+.PieChartsCenter.DDoS>label{font-size:30px;}
+.PieChartsCenter.DDoS>div{font-size:36px;}
+.PieChartsCenter.WAF{width:160px;left:506px;top:166px;}
+.PieChartsCenter.WAF>label{font-size:21px;}
+.PieChartsCenter.WAF>div{font-size:28px;}
+.PieChartsLegend{width:150px;list-style:none;position:absolute;}
+.PieChartsLegend li{padding:0 0 0 15px;}
+.PieChartsLegend li:before{width:10px;height:10px;border-radius:50%;background:#F2F2F2;content:" ";margin:3px 0 0 0;display:block;position:absolute;left:0;}
+.PieChartsLegend li>div{color:#808080;font-size:12px;text-align:left;}
+#MainViews-Biz .PieChartsLegend li:nth-child(1):before{background:#4FA8A1;}
+#MainViews-Biz .PieChartsLegend li:nth-child(2):before{background:#94BF4F;}
+#MainViews-Biz .PieChartsLegend li:nth-child(3):before{background:#9B9887;}
+#MainViews-Protection .PieChartsLegend li:nth-child(1):before{background:#94BF4F;}
+#MainViews-Protection .PieChartsLegend li:nth-child(2):before{background:#6A8242;}
+#MainViews-Protection .PieChartsLegend li:nth-child(3):before{background:#4A691C;}
+#MainViews-Protection .PieChartsLegend li:nth-child(4):before{background:#57543E;}
+#MainViews-Protection .PieChartsLegend li:nth-child(5):before{background:#9B9887;}
+#MainViews-Protection .PieChartsLegend li:nth-child(6):before{background:#C4DE96;}
+.PieChartsLegend.Device{left:220px;top:520px;}
+.PieChartsLegend.Traffic{left:560px;top:500px;}
+.PieChartsLegend.Browsers{left:680px;top:140px;}
+.PieChartsLegend.SearchEngine{left:780px;top:510px;}
+.PieChartsLegend.ThreatCategories{right:65px;top:300px;}
+.PieChartsLegend.ThreatCategories li{margin:0 0 10px 0;padding:0 0 0 17px;}
+.PieChartsLegend.ThreatCategories li:before{width:12px;height:12px;}
+.PieChartsLegend.ThreatCategories li>div:nth-child(1){color:#000000;font-size:14px;}
+.PieChartsLegend.ThreatCategories li>div:nth-child(2){color:#666666;font-size:14px;}
+#MainViews-Biz slider{background:url('/clearwatch/assets/css/images/pulse_slider_bg.png') no-repeat 0 0 transparent!important;}
+#MainViews-Biz slider span.bar.selection{background:#296660;}
+#MainViews-Biz slider span.pointer:after{background-color:#296660;}
+#MainViews-Biz slider span.bubble{color:#579C96;}
+#MainViews-Biz slider span.bubble.selection{color:#579C96;}
+#MainViews-Protection slider{background:url('/clearwatch/assets/css/images/protect_slider_bg.png') no-repeat 0 0 transparent!important;}
+#MainViews-Protection slider span.bar.selection{background:#4B6822;}
+#MainViews-Protection slider span.pointer:after{background-color:#4B6822;}
+#MainViews-Protection slider span.bubble{color:#94BF4F;}
+#MainViews-Protection slider span.bubble.selection{color:#94BF4F;}
+#MainViews-Performance slider{background:url('/clearwatch/assets/css/images/perform_slider_bg.png') no-repeat 0 0 transparent!important;}
+#MainViews-Performance slider span.bar.selection{background:#57543F;}
+#MainViews-Performance slider span.pointer:after{background-color:#57543F;}
+#MainViews-Performance slider span.bubble{color:#57543F;}
+#MainViews-Performance slider span.bubble.selection{color:#57543F;}
+.DataCenterMaps>h2{color:#9B9887;width:100%;font-size:14px;font-weight:300;line-height:1.2;margin:15px 0 0;position:absolute;}
+.DataCenterMaps>ul{width:940px;margin:0 auto;position:relative;top:-45px;}
+.DataCenterMaps>ul li:before{width:12px;height:12px;background:#4FA8A1;border-radius:50%;margin:0 0 5px 10px;content:" ";display:block;}
+.DataCenterMaps>ul li{width:235px;padding:0 20px 0 0;float:left;}
+.DataCenterMaps>ul li:last-child{padding:0;}
+.DataCenterMaps>ul li h1{color:#4FA8A1;font-size:18px;line-height:1;text-align:left;padding:0 0 10px 10px;margin:0 0 10px 0;border-width:0 0 1px 0;border-style:solid;border-color:#4FA8A1;}
+.DataCenterMaps>ul li div{color:#666666;width:215px;font-size:14px;text-align:left;background:#FFFFFF;padding:0 0 0 10px;white-space:normal;}
+.DataCenterMaps>ul li:nth-child(1):before{background:#4FA8A1;}
+.DataCenterMaps>ul li:nth-child(2):before{background:#EBB300;}
+.DataCenterMaps>ul li:nth-child(3):before{background:#ED7479;}
+.DataCenterMaps>ul li:nth-child(4):before{background:#ED7479;}
+.DataCenterMaps>ul li:nth-child(1) h1{color:#4FA8A1;border-color:#4FA8A1;}
+.DataCenterMaps>ul li:nth-child(2) h1{color:#EBB300;border-color:#EBB300;}
+.DataCenterMaps>ul li:nth-child(3) h1{color:#DE3E3E;border-color:#DE3E3E;}
+.DataCenterMaps>ul li:nth-child(4) h1{color:#ED7479;border-color:#ED7479;}
+.DataCenterMarks{width:920px;height:400px;margin:0 0 0 -460px;position:absolute;top:40px;left:50%;}
+.DataCenterMarks>div{position:relative;}
+.DataCenterMarks>div>label:after{background:rgba(148,138,89,0.2);border-radius:50%;content:" ";display:block;position:relative;}
+.DataCenterMarks>div>label.DataCenterMarksSize0:after{width:0;height:0;left:-25px;top:-55px;}
+.DataCenterMarks>div>label.DataCenterMarksSize1:after{width:60px;height:60px;left:-30px;top:-33px;}
+.DataCenterMarks>div>label.DataCenterMarksSize2:after{width:70px;height:70px;left:-35px;top:-37px;}
+.DataCenterMarks>div>label.DataCenterMarksSize3:after{width:80px;height:80px;left:-40px;top:-41px;}
+.DataCenterMarks>div>label.DataCenterMarksSize4:after{width:90px;height:90px;left:-45px;top:-48px;}
+.DataCenterMarks>div>label.DataCenterMarksSize5:after{width:100px;height:100px;left:-50px;top:-53px;}
+.DataCenterMarks>div>label.DataCenterMarksSize6:after{width:110px;height:110px;left:-55px;top:-57px;}
+.DataCenterMarks>div>label.DataCenterMarksSize7:after{width:120px;height:120px;left:-60px;top:-63px;}
+.DataCenterMarks>div>label.DataCenterMarksSize8:after{width:130px;height:130px;left:-65px;top:-72px;}
+.DataCenterMarks>div>label.DataCenterMarksSize9:after{width:140px;height:140px;left:-77px;top:-70px;}
+.DataCenterMarks>div>label.DataCenterMarksSize10:after{width:150px;height:150px;left:-75px;top:-76px;}
+.DataCenterMarks>div>label{width:0;height:0;border-style:solid;border-width:0 6px 15px;border-color:transparent transparent #948A59 transparent;}
+.DataCenterMarks>div>label.DataCenterMarksSize0{width:16px;height:18px;background-image:url('/clearwatch/assets/css/images/tg.png' );border-width:0;}
+.DataCenterMarks>div>label.DataCenterMarksSize0>div{left:-67px;}
+.DataCenterMarks>div>label>div{color:#948A59;width:150px;font-size:18px;position:relative;top:15px;left:-75px;}
+.DataCenterMarks>div>div{width:275px;background:#FFFFFF;border:1px solid #E6E6E6;border-radius:5px;padding:12px 15px;box-shadow:0 0 1px rgba(0,0,0,0.2);display:none;position:absolute;z-index:9999;}
+.DataCenterMarks>div>div:before{width:0;height:0;border-style:solid;border-width:0 10px 16px;border-color:transparent transparent #E6E6E6 transparent;position:absolute;top:-16px;left:14px;content:" ";display:block;}
+.DataCenterMarks>div>div:after{width:0;height:0;border-style:solid;border-width:0 9px 14px;border-color:transparent transparent #FFFFFF transparent;position:absolute;top:-14px;content:" ";display:block;}
+.DataCenterMarks>div>div>label{color:#948A59;font-size:18px;font-weight:bold;line-height:1;text-align:left;display:block;}
+.DataCenterMarks>div>div>i{color:#948A59;font-size:12px;font-weight:normal;font-style:normal;text-align:left;display:block;}
+.DataCenterMarks>div>div>ul{border-style:solid;border-color:#E6E6E6;border-width:0 1px;margin:10px 0 0;}
+.DataCenterMarks>div>div>ul li{width:48px;border-right:1px solid #E6E6E6;display:block;float:left;}
+.DataCenterMarks>div>div>ul li:last-child{border:0;}
+.DataCenterMarks>div>div>ul li>label{color:#666666;width:40px;height:48px;font-size:14px;}
+.DataCenterMarks>div>div>ul li>label:after{width:12px;height:12px;background:#4FA8A1;margin:0 7px 0 0;border-radius:50%;content:" ";position:relative;left:14px;top:10px;display:block;}
+.DataCenterMarks>div>div>ul li.status-online>label:after{background:#4FA8A1;}
+.DataCenterMarks>div>div>ul li.status-degradation>label:after{background:#EBB300;}
+.DataCenterMarks>div>div>ul li.status-maintenance>label:after{background:#DE3E3E;}
+.DataCenterMarks>div>div>ul li.status-offline>label:after{background:#ED7479;}
+.DataCenterMarks>div.SanJose{position:absolute;top:212px;left:120px;}
+.DataCenterMarks>div.SanJose>div{top:48px;left:-19px;}
+.DataCenterMarks>div.SanJose>label>div{top:-25px;}
+.DataCenterMarks>div.LosAngeles{position:absolute;top:233px;left:128px;}
+.DataCenterMarks>div.LosAngeles>div{top:48px;left:-19px;}
+.DataCenterMarks>div.Miami{position:absolute;top:235px;left:215px;}
+.DataCenterMarks>div.Miami>div{top:48px;left:-19px;}
+.DataCenterMarks>div.London{position:absolute;top:165px;left:425px;}
+.DataCenterMarks>div.London>div{top:48px;left:-19px;}
+.DataCenterMarks>div.Singapore{position:absolute;top:326px;left:688px;}
+.DataCenterMarks>div.Singapore>div{top:32px;left:-58px;}
+.DataCenterMarks>div.Singapore>div:before{left:53px;}
+.DataCenterMarks>div.Singapore>div:after{left:54px;}
+.DataCenterMarks>div.Singapore>label>div{top:-25px;}
+.DataCenterMarks>div.HongKong{position:absolute;top:265px;left:705px;}
+.DataCenterMarks>div.HongKong>div{top:47px;left:-28px;}
+.DataCenterMarks>div.HongKong>div:before{left:23px;}
+.DataCenterMarks>div.HongKong>div:after{left:24px;}
+.DataCenterMarks>div.Taipei{position:absolute;top:255px;left:735px;}
+.DataCenterMarks>div.Taipei>div{top:47px;left:-58px;}
+.DataCenterMarks>div.Taipei>div:before{left:53px;}
+.DataCenterMarks>div.Taipei>div:after{left:54px;}
+.DataCenterMarks>div.Taipei>label>div{top:-25px;}
+.DataCenterMarks>div.Washington{position:absolute;top:216px;left:234px;}
+.DataCenterMarks>div.Washington>div{top:40px;left:-18px;}
+.DataCenterMarks>div.Washington>label>div{top:-25px;}
+.highcharts-container{margin:0 auto;}

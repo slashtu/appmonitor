@@ -1,0 +1,42 @@
+@media screen and (min-width: 1024px) {
+	#widthSetting {
+		width: 1024px;
+		height: 0;
+		position: absolute;
+		top: -9999px;
+	}
+	header > section > .full {
+		width: 960px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	header > section > .simple {
+		width: 960px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	#HUD ul.simple {
+		width: 960px;
+	}
+	#HUD ul.simple li.HUD-Biz {
+		width: 245px;
+	}
+	#HUD ul.simple li.HUD-Protection {
+		width: 375px;
+	}
+	#HUD ul.simple li.HUD-Performance {
+		width: 265px;
+	}
+	#HUD ul.simple li.HUD-APPs {
+		width: 75px;
+	}
+	#HUD ul.full li > div {
+		width: 960px;
+	}
+	#MainViews {
+		width: 1000px;
+	}
+	#MainViews > section {
+
+	}
+}

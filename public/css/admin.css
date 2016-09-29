@@ -1,0 +1,189 @@
+.AdminMenus {
+	width: 100%;
+	height: 40px;
+	background: #063034;
+}
+.AdminMenus > div {
+	width: 1000px;
+	margin: 0 auto;
+}
+.AdminMenus .logo {
+	width: 27px;
+	height: 40px;
+	background: url('/clearwatch/assets/css/images/logo_simple.png') no-repeat center transparent;
+	margin: 0 30px 0 0;
+	display: block;
+	float: left;
+}
+.AdminMenus > div > ul.AdminMenu {
+	float: left;
+}
+.AdminMenus > div > ul.UserMenu {
+	float: right;
+}
+.AdminMenus > div > ul > li {
+	color: #FFFFFF;
+	line-height: 40px;
+	margin: 0 20px 0 0;
+	position: relative;
+	float: left;
+}
+.AdminMenus > div > ul > li > a {
+	color: #FFFFFF;
+	line-height: 40px;
+}
+.AdminMenus .submenu:before {
+	border-style: solid;
+	border-width: 10px 12px;
+	border-color: transparent transparent #FFFFFF transparent;
+	margin-left: -12px;
+	content: " ";
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	z-index: 81;
+}
+.AdminMenus .submenu:after {
+	width: 100%;
+	height: 20px;
+	content: "";
+	position: absolute;
+	top: -20px;
+	z-index: 80;
+}
+.AdminMenus .submenu {
+	width: 200px;
+	padding: 5px 0;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+	-moz-box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+	box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+	position: absolute;
+	z-index: 82;
+	display: none;
+}
+.AdminMenus .submenu {
+	top: 43px;
+}
+.AdminMenus .submenu li {
+	line-height: 2;
+}
+.AdminMenus .submenu.admin-submenu {
+	width: 137px;
+	padding: 5px 0 2px 0;
+	left: -50px;
+}
+.AdminMenus .submenu.admin-submenu ul li {
+	padding: 0 3px;
+	float: none;
+	display: block;
+}
+.AdminMenus .submenu.admin-submenu ul li a {
+	color: #666666;
+	padding: 8px 15px;
+	display: block;
+}
+.AdminMenus .submenu.admin-submenu ul li a:hover {
+	background: #F2F2F2;
+}
+.AdminMenus .submenu.admin-submenu ul li:not(:last-child) a {
+	border-bottom: 1px dotted #CCCCCC;
+}
+.AdminMenus .submenu.user-menu {
+	width: 137px;
+	padding: 5px 0 2px 0;
+	left: -50px;
+}
+.AdminMenus .submenu.user-menu ul li {
+	padding: 0 3px;
+	float: none;
+	display: block;
+}
+.AdminMenus .submenu.user-menu ul li a {
+	color: #666666;
+	padding: 8px 15px;
+	display: block;
+}
+.AdminMenus .submenu.user-menu ul li a:hover {
+	background: #F2F2F2;
+}
+.AdminMenus .submenu.user-menu ul li:not(:last-child) a {
+	border-bottom: 1px dotted #CCCCCC;
+}
+.AdminView {
+	width: 920px;
+	padding: 20px 30px;
+	margin: 0 auto;
+}
+.AdminView input.form-control {
+	width: auto;
+	background: #FFFFFF;
+}
+.AdminView .table thead tr {
+	background: #94BF4F;
+}
+.AdminView .table thead tr th,
+.AdminView .table tbody tr td {
+	line-height: 35px;
+	padding: 5px 10px;
+}
+.AdminView .table thead tr th {
+	color: #4A691C;
+}
+.AdminView .table tbody tr:nth-child(2n+1) {
+	background: #D3E6B3;
+}
+.AdminView .table tbody tr td {
+	color: #5F7A34;
+}
+.AdminView .table tbody tr td > a.glyphicon {
+	color: #5F7A34;
+	font-size: 18px;
+	line-height: 30px;
+	margin: 0 10px 0 0;
+}
+.AdminForm {
+	width: 920px;
+	margin: 0 auto;
+}
+.AdminForm h1 {
+	color: #94BF4F;
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: left;
+	margin: 40px 0 0 0;
+	display: inline-block;
+}
+.AdminForm h1:after {
+	width: 100px;
+	height: 1px;
+	background: #94BF4F;
+	content: " ";
+	margin: 6px auto 0;
+	display: block;
+}
+.AdminForm > form {
+	width: 400px;
+	margin: 20px 0 0;
+}
+.AdminForm > form > div {
+	margin: 16px 0 0 0;
+}
+.AdminForm > form > div:last-child {
+	margin: 40px 0 0 0;
+}
+.AdminForm > form > div > button {
+	width: 240px;
+	height: 46px;
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 46px;
+	padding: 0;
+	background: #94BF4F;
+}
+.AdminForm > form > div > button:hover {
+	color: #FFFFFF;
+	background: #D3E6B3;
+	border: 0;
+}

@@ -1,0 +1,198 @@
+body.landing-page {
+	background: #F2F2F2;
+}
+section.landing {
+	height: 280px;
+	background: url('/clearwatch/assets/css/images/logo_landing.png') no-repeat center 30px #063034;
+}
+input.form-control {
+	height: 46px;
+	padding-top: 0;
+	padding-bottom: 0;
+	border: 1px solid #E6E6E6;
+	border-radius: 0;
+	background: #F2F2F2;
+}
+.checkbox-row {
+	padding: 5px 15px;
+}
+#LoginForm:after,
+#ForgetForm:after {
+	/*width: 400px;
+	height: 40px;
+	margin-left: -200px;
+	content: "Copyright © 2014 GUARD2.0│by Nexusguard Limited. All rights reserved.";
+	position: relative;
+	left: 50%;
+	bottom: 0;*/
+}
+#LoginForm {
+	height: 100%;
+}
+#LoginForm > section {
+	position: relative;
+	top: -90px;
+}
+#LoginForm > section > form {
+	width: 400px;
+	background: #FFFFFF;
+	-webkit-box-shadow:0 2px 10px 0 rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0 2px 10px 0 rgba(50, 50, 50, 0.75);
+	box-shadow: 0 2px 10px 0 rgba(50, 50, 50, 0.25);
+	margin: 0 auto;
+	padding: 30px 35px 30px 35px;
+}
+#LoginForm > section > form > h1 {
+	color: #8BC53F;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 1;
+	text-align: left;
+	margin: 0;
+	padding: 0 10px;
+}
+#LoginForm > section > form > h2 {
+	color: #8BC53F;
+	font-size: 28px;
+	font-weight: lighter;
+	line-height: 1.2;
+	text-align: left;
+	margin: 0;
+	padding: 0 10px;
+}
+#LoginForm > section > form > h3 {
+	color: #808080;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5;
+	text-align: left;
+	margin: 0 0 30px 0;
+	padding: 0 10px;
+}
+#LoginForm > section > form > div {
+	margin: 10px 0 0;
+}
+#LoginForm > section > form > div:last-child {
+	margin-top: 30px;
+}
+#LoginForm .btn {
+	width: 100%;
+	font-size: 24px;
+}
+#LoginForm > section > a {
+	width: 150px;
+	color: #5F7A34;
+	font-size: 16px;
+	text-decoration: underline;
+	text-align: center;
+	margin: 15px auto 0;
+	display: block;
+}
+#ForgetForm {
+	height: 100%;
+	background: #F2F2F2;
+}
+#ForgetForm > section {
+	position: relative;
+	top: -90px;
+}
+#ForgetForm > section > form {
+	width: 500px;
+	background: #FFFFFF;
+	-webkit-box-shadow:0 2px 10px 0 rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0 2px 10px 0 rgba(50, 50, 50, 0.75);
+	box-shadow: 0 2px 10px 0 rgba(50, 50, 50, 0.25);
+	margin: 0 auto;
+	padding: 30px 35px 30px 35px;
+}
+#ForgetForm > section > form > h1 {
+	color: #8BC53F;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1;
+	text-align: left;
+	margin: 0;
+	padding: 0 10px;
+}
+#ForgetForm > section > form > h3 {
+	color: #808080;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5;
+	text-align: left;
+	margin: 10px 0 30px 0;
+	padding: 0 10px;
+}
+#ForgetForm > section > form > div {
+	margin: 10px 0 0;
+}
+#ForgetForm > section > form > div:last-child {
+	margin-top: 30px;
+}
+#ForgetForm .btn {
+	width: 330px;
+	font-size: 24px;
+	margin: 0 auto;
+	display: block;
+}
+#ForgetForm > section > a {
+	width: 150px;
+	color: #5F7A34;
+	font-size: 16px;
+	text-decoration: underline;
+	text-align: center;
+	margin: 15px auto 0;
+	display: block;
+}
+.recaptcha-panel span {
+	float: left;
+}
+.recaptcha-image {
+	margin: 10px 20px 0 0;
+}
+.recaptcha-image > a {
+	line-height: 0;
+}
+.recaptcha-image img {
+	width: 212px;
+	height: 46px;
+	border: 1px solid #939393;
+	padding: 5px;
+}
+.recaptcha-image > a span {
+	line-height: 1;
+	margin: -20px 0 0 0;
+}
+.recaptcha-controls {
+	margin: 18px 0 0;
+}
+.recaptcha-controls a {
+	width: 36px;
+	height: 36px;
+	margin: 0 10px 0 0;
+	display: inline-block;
+}
+a.icon-refresh {
+	background: url('/clearwatch/assets/css/images/captcha_btn_refresh.png') no-repeat 0 0 scroll;
+}
+a.icon-refresh:hover {
+	background: url('/clearwatch/assets/css/images/captcha_btn_refresh_hover.png') no-repeat 0 0 scroll;
+}
+a.icon-headphones {
+	background: url('/clearwatch/assets/css/images/captcha_btn_soundon.png') no-repeat 0 0 scroll;
+}
+a.icon-headphones:hover {
+	background: url('/clearwatch/assets/css/images/captcha_btn_soundon_hover.png') no-repeat 0 0 scroll;
+}
+a.icon-picture {
+	background: url('/clearwatch/assets/css/images/captcha_btn_soundoff.png') no-repeat 0 0 scroll;
+}
+a.icon-picture:hover {
+	background: url('/clearwatch/assets/css/images/captcha_btn_soundoff_hover.png') no-repeat 0 0 scroll;
+}
+a.icon-question-sign {
+	background: url('/clearwatch/assets/css/images/captcha_btn_help.png') no-repeat 0 0 scroll;
+}
+a.icon-question-sign:hover {
+	background: url('/clearwatch/assets/css/images/captcha_btn_help_hover.png') no-repeat 0 0 scroll;
+}
