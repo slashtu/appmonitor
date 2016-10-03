@@ -47,6 +47,8 @@ let ProtectionSideBar = React.createClass({
   componentDidMount: function() {
     MitigationStore.listen(this.onMitigationChange)
     WAFStore.listen(this.onWAFStoreChange)
+    MitigationStore.emitChange();
+    WAFStore.emitChange();
   },
 
   componentWillUnmount: function() {

@@ -73,7 +73,7 @@ var Header = React.createClass({
 
         // if the user's roles boject contains "admin" string
         if( this.props.user.roles && this.props.user.roles.indexOf('admin') !== -1){
-            return ( <li><Link to="Monitor" >Monitor</Link></li>    )
+            return ( <li><Link to="#" >Monitor</Link></li>    )
         }
     },
 
@@ -104,12 +104,12 @@ var Header = React.createClass({
                             <span className="ac_caret"></span>
                         </button>
                         <ul className="ac_menu" style={this.state.toggleStyle}>
-                            <li><a href="/" >Dashboard</a></li>          
-                            <li><Link to="/MainSSLKey">SSL Key Manager</Link></li>
-                            <li><a target="_blank" href="/assets/files/AP_guide.pdf" >Portal Guide</a></li>
-                            <li><a href={config.sso + '/changepassword'} >Change Password</a></li>
+                            <li><a href="#" >Dashboard</a></li>          
+                            <li><a href="#" >SSL Key Manager</a></li>
+                            <li><a href="#" >Portal Guide</a></li>
+                            <li><a href="#" >Change Password</a></li>
                             {this.monitorPage()}                                
-                            <li><a href={config.sso + '/logout'} >Log Out</a></li>
+                            <li><a href="#" >Log Out</a></li>
                         </ul>   
                     </div>      
                 </ReactGridLayout>

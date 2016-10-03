@@ -43,7 +43,7 @@ let MitigationStore = alt.createStore(class MitigationStore {
   setMitigationData( object ){
 
     // dummy data
-    if(__test) return this.mitigationData = dummyData
+    if(true) return this.mitigationData = dummyData
 
 
     this.mitigationData.forEach(( threat ) => {

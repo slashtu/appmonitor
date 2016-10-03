@@ -3,7 +3,8 @@ var config = {}
 if( process.env.NODE_ENV === "development"){
 
 	config = {
-		apiv2: "https://sso.nxg.me/apiv2",
+		apiv2: "http://localhost:8000/api",
+		// apiv2: "https://sso.nxg.me/apiv2",
 		trackerWS: "wss://sso.nxg.me/ws",
 		sso: "http://localhost:8000/api",
 		host: "http://localhost:8000/dashboard",

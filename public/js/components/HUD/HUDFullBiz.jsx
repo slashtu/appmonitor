@@ -12,6 +12,8 @@ var HUD = React.createClass({
 
     mixins:[AppMixin],
 
+    now: new Date().getTime(),
+
     getInitialState: function() {
         return {};
     },
@@ -28,11 +30,16 @@ var HUD = React.createClass({
 
     onTrackerChange: function(state){
 
-        var siteId = this.getSiteId()
+      var time = new Date().getTime()
 
-        if( state.onlineUser[siteId] ){
-            this.refs.onlineUser.to(state.onlineUser[siteId])
+        if( time - this.now > 3000 ){
+
+        this.now = time;
+
+        if( state.onlineUser['dummy'] ){
+          this.refs.onlineUser.to(state.onlineUser['dummy'])
         }
+      }
     },
 
     onOverviewChange: function( state ){

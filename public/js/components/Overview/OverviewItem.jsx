@@ -18,6 +18,8 @@ var anchorStyle = {
 
 var Overview = React.createClass({
 
+	now: new Date().getTime(),
+
 	getInitialState: function() {
 		return {}
 	},
@@ -39,9 +41,18 @@ var Overview = React.createClass({
 	// on-line user
 	onTrackerChange: function(state){
 
-		if( state.onlineUser[this.props.site.siteid] ){
-			this.refs.onlineUser.to(state.onlineUser[this.props.site.siteid])
-		}
+		var time = new Date().getTime()
+
+      if( time - this.now > 3000 ){
+
+        this.now = time;
+
+        if( state.onlineUser['dummy'] ){
+          this.refs.onlineUser.to(state.onlineUser['dummy'])
+        }else{
+          this.refs.onlineUser.to(0)
+        }
+      }
 	},
 
 	shouldComponentUpdate: function() {

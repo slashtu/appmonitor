@@ -34,7 +34,7 @@ class TrackerActions {
 
         // var wb = 'wss://sso.nxg.me/ws?custid=C-31148721-4285-4198-ad58-33844586165d'
 
-    	var client = new W3CWebSocket( wb, 'echo-protocol');
+    	var client = new W3CWebSocket( 'ws://localhost:8080/', 'echo-protocol');
 
         currentWS = client;
 

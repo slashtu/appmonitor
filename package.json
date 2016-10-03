@@ -52,6 +52,7 @@
     "node-sass": "^3.7.0",
     "object-assign": "^3.0.0",
     "postcss-loader": "^0.9.1",
+    "random-country": "^1.0.1",
     "react": "^15.0.2",
     "react-addons-pure-render-mixin": "^15.0.2",
     "react-dom": "^15.0.2",

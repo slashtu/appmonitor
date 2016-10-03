@@ -12,6 +12,8 @@ var SettingStore = require('../../stores/SettingStore.jsx')
 
 var HUDBiz = React.createClass({
 
+    now: new Date().getTime(),
+
     mixins:[AppMixin],
 
     getInitialState: function() {
@@ -30,13 +32,20 @@ var HUDBiz = React.createClass({
 
     onTrackerChange: function(state){
 
+      var time = new Date().getTime()
+
+      if( time - this.now > 3000 ){
+
+        this.now = time;
+
         var siteId = this.getSiteId()
 
-        if( state.onlineUser[siteId] ){
-            this.refs.onlineUser.to(state.onlineUser[siteId])
+        if( state.onlineUser['dummy'] ){
+          this.refs.onlineUser.to(state.onlineUser['dummy'])
         }else{
-            this.refs.onlineUser.to(0)
+          this.refs.onlineUser.to(0)
         }
+      }
     },
 
     onOverviewChange: function( state ){

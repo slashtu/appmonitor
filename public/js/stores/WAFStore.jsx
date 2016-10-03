@@ -9,9 +9,9 @@ import WAFActions from '../actions/WAFActions.jsx'
 // ------------------------- dummy data for testing-----------------------------
 let dummyData = 
     [
-      { label: 'SQL Injection', count: 0},
-      { label: 'Cross Site Scripting', count: 0},
-      { label: 'Illegal Resource Access', count: 0},
+      { label: 'SQL Injection', count: 12},
+      { label: 'Cross Site Scripting', count: 3},
+      { label: 'Illegal Resource Access', count: 5},
     ]
 
 //---------------------------------------------------------------------

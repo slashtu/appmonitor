@@ -138,7 +138,6 @@ var App = React.createClass({
         
         return (
             <div>
-                <Menu />
                 <Header user={this.state.customerStore.user} toggleOverview={this.toggleOverview}/>
                 <HUD path={this.props.location.pathname} push={this.props.router.push}/>
                 <Tab />

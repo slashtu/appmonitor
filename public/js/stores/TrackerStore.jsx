@@ -59,7 +59,7 @@ var TrackerStore = alt.createStore(class TrackerStore {
 		this.onlineUser[location.site_id] = location.onlineusercount
 
 		// not choose a site yet
-		if( siteId !== "" && siteId === location['site_id']){
+		if( siteId !== "" ){
 
 			var pre = { dist: 999999, index:0 },
 				cities = this.clusters
