@@ -28,9 +28,6 @@ ReactDOM.render(
       <Route path='dashboard' component={MainProtection} />
       <Route path="MainBP" component={MainBP} />
       <Route path="MainPerformance" component={MainPerformance} />
-      <Route path="MainTCPProxy" component={MainTCPProxy} />
-      <Route path="MainSSLKey" component={MainSSLKey} />
-      <Route path="Monitor" component={Monitor} />
     </Route>
   </Router>,
   document.getElementById('app')
