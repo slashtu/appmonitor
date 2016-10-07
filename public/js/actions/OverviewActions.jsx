@@ -1,5 +1,6 @@
 var alt = require('../alt')
-var apiv2 = require('../setting.js').apiv2
+var apiv2 = require('../setting.js').apiv2　
+var dummy_overview = require('./dummy/overview.json')
 
 class OverviewActions {
     constructor() {
@@ -9,20 +10,27 @@ class OverviewActions {
     }
 
     getData(){
-
+        var self = this;
         var WAFActions = require('./WAFActions.jsx')
 
-        var CustomerStore = require('../stores/CustomerStore.jsx')
+        setTimeout(
+          function(){
+            self.actions.setData(dummy_overview)
+            WAFActions.setCddWAFTop10IP(dummy_overview)
+          }
+        ,0)
 
-    	var self = this;
+     //    var CustomerStore = require('../stores/CustomerStore.jsx')
 
-        var id =  CustomerStore.getState().user.cid
+    	// var self = this;
 
-        $.get( apiv2 + '/overview?custid=' + id, function(data){
-            self.actions.setData( data )
-            WAFActions.setCddWAFTop10IP(data)
-        })
-        .fail(function(){console.log('ajax error')})
+     //    var id =  CustomerStore.getState().user.cid
+
+     //    $.get( apiv2 + '/overview?custid=' + id, function(data){
+     //        self.actions.setData( data )
+     //        WAFActions.setCddWAFTop10IP(data)
+     //    })
+     //    .fail(function(){console.log('ajax error')})
     }
 }
 

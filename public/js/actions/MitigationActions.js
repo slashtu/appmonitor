@@ -16,10 +16,14 @@ class MitigationActions {
 
     let self = this
 
-    $.get( api, (data) => {
-        self.actions.setMitigationData( { data: data })
-    })
-    .fail( (err) => {console.log('getMitigationData error')})
+    setTimeout(function(){
+      self.actions.setMitigationData({})
+    },0)
+
+    // $.get( api, (data) => {
+    //     self.actions.setMitigationData( { data: data })
+    // })
+    // .fail( (err) => {console.log('getMitigationData error')})
   }
 }
 

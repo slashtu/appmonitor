@@ -14,13 +14,13 @@ var WAStore = alt.createStore(class WAStore {
 
   		this.visitors = { rate: {}, data: [1] }
 
-  		this.device = { data:[ { name:'Device', y: 1 , rate: 0} ] }
+  		this.device = { data:[ { name:'Device', y: 54 , rate: 10} ] }
 
-  		this.browser  = { data:[ { name:'Browser', y: 1 , rate: 0} ] }
+  		this.browser  = { data:[ { name:'Browser', y: 33 , rate: 33} ] }
 
-  		this.searchengine  = { data:[ { name:'Engine', y: 1 , rate: 0} ] }
+  		this.searchengine  = { data:[ { name:'Engine', y: 67 , rate: 21} ] }
 
-  		this.traffic  = { data:[ { name:'Traffic Source', y: 1 , rate: 0} ] }
+  		this.traffic  = { data:[ { name:'Traffic Source', y: 87 , rate: 42} ] }
 
 	    this.bindActions(WAActions)
 	}
@@ -28,6 +28,8 @@ var WAStore = alt.createStore(class WAStore {
 	setWAData(data){
 
 		if( !Lib.getSiteSetting().bp ) return
+
+		return
 		
 		/* sort top 3 */
 		var plturlArr = Lib.objectToArray( data.plturlc[0][1], function( key, value ){

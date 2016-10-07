@@ -68,21 +68,20 @@ var HUD = React.createClass({
     },
 
     render: function() {
-
         var fullStyle = {}
         fullStyle.display = "none"
         return (
           <div id="HUD" className="HUD">
           	<ul className="simple clearfix">
-                <HUDBiz selected={this.props.path === "/MainBP"} onClick={this.goTo.bind(this, "/MainBP")} push={this.props.push}/>
-                <HUDProtection selected={this.props.path === "/dashboard"} onClick={this.goTo.bind(this, "/")} />
-                <HUDPerformance selected={this.props.path === "/MainPerformance"} onClick={this.goTo.bind(this, '/MainPerformance')} />
+                <HUDBiz selected={this.props.path === "MainBP"} onClick={this.goTo.bind(this, "/MainBP")} push={this.props.push}/>
+                <HUDProtection selected={this.props.path === "dashboard"} onClick={this.goTo.bind(this, "/")} />
+                <HUDPerformance selected={this.props.path === "MainPerformance"} onClick={this.goTo.bind(this, '/MainPerformance')} />
           	</ul>
             <ul id="full" className="full clearfix" style={fullStyle} >
-                <HUDFullBiz selected={this.props.path === "/MainBP" && this.HUDstate === "full" } />
-                <HUDFullProtection selected={this.props.path === "/dashboard" && this.HUDstate === "full"}/>
-                <HUDFullPerformance selected={this.props.path === "/MainPerformance" && this.HUDstate === "full"}/>
-                <HUDFullTCPProxy selected={this.props.path === "/MainTCPProxy"}/>
+                <HUDFullBiz selected={this.props.path === "MainBP" && this.HUDstate === "full" } />
+                <HUDFullProtection selected={this.props.path === "dashboard" && this.HUDstate === "full"}/>
+                <HUDFullPerformance selected={this.props.path === "MainPerformance" && this.HUDstate === "full"}/>
+                <HUDFullTCPProxy selected={this.props.path === "MainTCPProxy"}/>
             </ul>
           </div>
         );

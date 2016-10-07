@@ -108,12 +108,12 @@ slider .bubble.low {
 	vertical-align: middle;
 	width: 34px;
 	height: 25px;
-	background: url('/assets/images/header_switch.png') no-repeat center transparent;
+	background: url('assets/images/header_switch.png') no-repeat center transparent;
 	display: inline-block;
 	cursor: pointer;
 }
 .header .header-switch:hover {
-	background: url('/assets/images/header_switch-on.png') no-repeat center transparent;
+	background: url('assets/images/header_switch-on.png') no-repeat center transparent;
 }
 
 .header a:hover{
@@ -184,13 +184,13 @@ slider .bubble.low {
 .header .navigation > ul > li > a .header-alert {
 	width: 35px;
 	height: 25px;
-	background: url('/assets/images/header_alert.png') no-repeat center transparent;
+	background: url('assets/images/header_alert.png') no-repeat center transparent;
 	display: block;
 }
 .header .navigation > ul > li > a:hover .header-alert {
 	width: 35px;
 	height: 25px;
-	background: url('/assets/images/header_alert-on.png') no-repeat center transparent;
+	background: url('assets/images/header_alert-on.png') no-repeat center transparent;
 	display: block;
 }
 .header .navigation > ul > li .alert-count {
@@ -210,13 +210,13 @@ slider .bubble.low {
 .header .navigation > ul > li > a .header-report {
 	width: 26px;
 	height: 26px;
-	background: url('/assets/images/header_report.png') no-repeat center transparent;
+	background: url('assets/images/header_report.png') no-repeat center transparent;
 	display: block;
 }
 .header .navigation > ul > li > a:hover .header-report {
 	width: 26px;
 	height: 26px;
-	background: url('/assets/images/header_report-on.png') no-repeat center transparent;
+	background: url('assets/images/header_report-on.png') no-repeat center transparent;
 	display: block;
 }
 .header .link-menu {
@@ -248,7 +248,7 @@ slider .bubble.low {
 .header .full .logo {
 	width: 178px;
 	height: 80px;
-	background: url('/assets/images/logo_full.png') no-repeat center transparent;
+	background: url('assets/images/logo_full.png') no-repeat center transparent;
 	display: block;
 }
 .header .simple {
@@ -258,7 +258,7 @@ slider .bubble.low {
 .header .simple .logo {
 	width: 27px;
 	height: 40px;
-	background: url('/assets/images/logo_simple.png') no-repeat center transparent;
+	background: url('assets/images/logo_simple.png') no-repeat center transparent;
 	display: block;
 }
 .header .simple .website {
@@ -512,26 +512,26 @@ slider .bubble.low {
 	border: 0;
 }
 #HUD ul.simple li.HUD-Biz {
-	background-image: url('/assets/images/nav_pulse.png');
+	background-image: url('assets/images/nav_pulse.png');
 }
 #HUD ul.simple li.HUD-Protection {
-	background-image: url('/assets/images/nav_protect.png');
+	background-image: url('assets/images/nav_protect.png');
 }
 #HUD ul.simple li.HUD-Performance {
-	background-image: url('/assets/images/nav_perform.png');
+	background-image: url('assets/images/nav_perform.png');
 }
 #HUD ul.simple li.HUD-APPs {
 	background-position: 31px 53px;
-	background-image: url('/assets/images/nav_app_disable.png');
+	background-image: url('assets/images/nav_app_disable.png');
 }
 #HUD ul.simple li.HUD-Biz.active,
 #HUD ul.simple li.HUD-Biz:not(.disabled):hover,
 #HUD ul.full li.HUD-Biz > div {
-	background-image: url('/assets/images/nav_pulse-selected.png');
+	background-image: url('assets/images/nav_pulse-selected.png');
 	background-color: #e15829;
 }
 #HUD ul.full li.HUD-Biz > div {
-	background-image: url('/assets/images/navi_v1/nav_pulse-selected.png');
+	background-image: url('assets/images/navi_v1/nav_pulse-selected.png');
 }
 #HUD ul.full li.HUD-Biz {
 	background-color: #e15829
@@ -539,16 +539,16 @@ slider .bubble.low {
 
 #HUD ul.simple li.HUD-Protection.active,
 #HUD ul.simple li.HUD-Protection:hover{
-	background-image: url('/assets/images/nav_protect-selected.png');
+	background-image: url('assets/images/nav_protect-selected.png');
 	background-color: #e15829;
 }
 
 #HUD ul.full li.HUD-Protection > div {
-	background-image: url('/assets/images/nav_protect-selected.png');
+	background-image: url('assets/images/nav_protect-selected.png');
 	background-color: #e15829;
 }
 #HUD ul.full li.HUD-Protection > div {
-	background-image: url('/assets/images/navi_v1/nav_protect-selected.png');
+	background-image: url('assets/images/navi_v1/nav_protect-selected.png');
 }
 #HUD ul.full li.HUD-Protection {
 	background-color: #e15829;
@@ -556,11 +556,11 @@ slider .bubble.low {
 #HUD ul.simple li.HUD-Performance.active,
 #HUD ul.simple li.HUD-Performance:hover,
 #HUD ul.full li.HUD-Performance > div {
-	background-image: url('/assets/images/nav_perform-selected.png');
+	background-image: url('assets/images/nav_perform-selected.png');
 	background-color: #e15829;
 }
 #HUD ul.full li.HUD-Performance > div {
-	background-image: url('/assets/images/navi_v1/nav_perform-selected.png');
+	background-image: url('assets/images/navi_v1/nav_perform-selected.png');
 }
 
 #HUD ul.full li.HUD-Performance {
@@ -574,12 +574,12 @@ slider .bubble.low {
 #HUD ul.simple li.HUD-APPs.active,
 /*#HUD ul.simple li.HUD-APPs:hover,*/
 #HUD ul.full li.HUD-APPs > div {
-	background-image: url('/assets/images/nav_app-selected.png');
+	background-image: url('assets/images/nav_app-selected.png');
 	background-position: 31px 53px;
 	background-color: #e15829;
 }
 #HUD ul.full li.HUD-APPs > div {
-	background-image: url('/assets/images/navi_v1/nav_app-selected.png');
+	background-image: url('assets/images/navi_v1/nav_app-selected.png');
 	background-position: 23px 10px;
 }
 #HUD ul.full li.HUD-APPs {
@@ -733,44 +733,44 @@ slider .bubble.low {
 	border-color: #ED967E;
 }
 #HUD ul.full li.HUD-Biz a.ReturnTop {
-	background: url('/assets/images/pulse_return_top.png') no-repeat 0 center transparent;
+	background: url('assets/images/pulse_return_top.png') no-repeat 0 center transparent;
 }
 #HUD ul.full li.HUD-Biz a.ReturnTop:hover {
-	background: url('/assets/images/pulse_return_top_hover.png') no-repeat 0 center transparent;
+	background: url('assets/images/pulse_return_top_hover.png') no-repeat 0 center transparent;
 }
 #HUD ul.full li.HUD-Protection section {
 	border-color: #ED967E;
 }
 #HUD ul.full li.HUD-Protection a.ReturnTop {
-	background: url('/assets/images/protect_return_top.png') no-repeat 0 center transparent;
+	background: url('assets/images/protect_return_top.png') no-repeat 0 center transparent;
 }
 #HUD ul.full li.HUD-Protection a.ReturnTop:hover {
-	background: url('/assets/images/pulse_return_top_hover.png') no-repeat 0 center transparent;
+	background: url('assets/images/pulse_return_top_hover.png') no-repeat 0 center transparent;
 }
 #HUD ul.full li.HUD-Performance section {
 	border-color: #ED967E;
 }
 #HUD ul.full li.HUD-Performance a.ReturnTop {
-	background: url('/assets/images/perform_return_top.png') no-repeat 0 center transparent;
+	background: url('assets/images/perform_return_top.png') no-repeat 0 center transparent;
 }
 #HUD ul.full li.HUD-Performance a.ReturnTop:hover {
-	background: url('/assets/images/pulse_return_top_hover.png') no-repeat 0 center transparent;
+	background: url('assets/images/pulse_return_top_hover.png') no-repeat 0 center transparent;
 }
 #HUD ul.full li.HUD-APPs section {
 	border-color: #FFFFFF;
 }
 #HUD ul.full li.HUD-APPs a.ReturnTop {
-	background: url('/assets/images/apps_return_top.png') no-repeat 0 center transparent;
+	background: url('assets/images/apps_return_top.png') no-repeat 0 center transparent;
 }
 #HUD ul.full li.HUD-APPs a.ReturnTop:hover {
-	background: url('/assets/images/pulse_return_top_hover.png') no-repeat 0 center transparent;
+	background: url('assets/images/pulse_return_top_hover.png') no-repeat 0 center transparent;
 }
 #HUD ul.full li .smallCharts {
 	width: 80px;
 	height: 46px;
 	text-align:center;
 	line-height:6;
-	/*background: url('/assets/images/small_charts.png') no-repeat center transparent;*/
+	/*background: url('assets/images/small_charts.png') no-repeat center transparent;*/
 }
 #HUD ul.full li .OnlineUsers > div {
 	color: #FFFFFF;
@@ -1201,7 +1201,7 @@ display: block;
 #Overview > a {
 	width: 23px;
 	height: 23px;
-	background: url('/assets/images/icon-close-overview.png') no-repeat 0 center transparent;
+	background: url('assets/images/icon-close-overview.png') no-repeat 0 center transparent;
 	margin: 20px auto;
 	display: block;
 }
@@ -1233,7 +1233,7 @@ display: block;
 #Overview .websites li > a {
 	color: #ffffff;
 	font-size: 14px;
-	background: url('/assets/images/icon-link-green.png') no-repeat 0 center transparent;
+	background: url('assets/images/icon-link-green.png') no-repeat 0 center transparent;
 	padding: 0 0 0 15px;
 }
 #Overview .websites li > div {
@@ -1292,7 +1292,7 @@ display: block;
 }
 #Overview .websites li.statusRed > a {
 	color: #EB757B;
-	background: url('/assets/images/icon-link-red.png') no-repeat 0 center transparent;
+	background: url('assets/images/icon-link-red.png') no-repeat 0 center transparent;
 }
 #Overview .websites li.statusRed > div > div > label {
 	color: #EB757B;
@@ -1316,7 +1316,7 @@ display: block;
 }
 #Overview .websites li.statusYellow > a {
 	color: #EAB229;
-	background: url('/assets/images/icon-link-yellow.png') no-repeat 0 center transparent;
+	background: url('assets/images/icon-link-yellow.png') no-repeat 0 center transparent;
 }
 #Overview .websites li.statusYellow > div > div > label {
 	color: #EAB229;
@@ -1351,7 +1351,7 @@ body.landing-page {
 }
 section.landing {
 	height: 280px;
-	background: url('/assets/images/logo_landing.png') no-repeat center 30px #063034;
+	background: url('assets/images/logo_landing.png') no-repeat center 30px #063034;
 }
 input.form-control {
 	height: 46px;
@@ -1521,28 +1521,28 @@ input.form-control {
 	display: inline-block;
 }
 a.icon-refresh {
-	background: url('/assets/images/captcha_btn_refresh.png') no-repeat 0 0 scroll;
+	background: url('assets/images/captcha_btn_refresh.png') no-repeat 0 0 scroll;
 }
 a.icon-refresh:hover {
-	background: url('/assets/images/captcha_btn_refresh_hover.png') no-repeat 0 0 scroll;
+	background: url('assets/images/captcha_btn_refresh_hover.png') no-repeat 0 0 scroll;
 }
 a.icon-headphones {
-	background: url('/assets/images/captcha_btn_soundon.png') no-repeat 0 0 scroll;
+	background: url('assets/images/captcha_btn_soundon.png') no-repeat 0 0 scroll;
 }
 a.icon-headphones:hover {
-	background: url('/assets/images/captcha_btn_soundon_hover.png') no-repeat 0 0 scroll;
+	background: url('assets/images/captcha_btn_soundon_hover.png') no-repeat 0 0 scroll;
 }
 a.icon-picture {
-	background: url('/assets/images/captcha_btn_soundoff.png') no-repeat 0 0 scroll;
+	background: url('assets/images/captcha_btn_soundoff.png') no-repeat 0 0 scroll;
 }
 a.icon-picture:hover {
-	background: url('/assets/images/captcha_btn_soundoff_hover.png') no-repeat 0 0 scroll;
+	background: url('assets/images/captcha_btn_soundoff_hover.png') no-repeat 0 0 scroll;
 }
 a.icon-question-sign {
-	background: url('/assets/images/captcha_btn_help.png') no-repeat 0 0 scroll;
+	background: url('assets/images/captcha_btn_help.png') no-repeat 0 0 scroll;
 }
 a.icon-question-sign:hover {
-	background: url('/assets/images/captcha_btn_help_hover.png') no-repeat 0 0 scroll;
+	background: url('assets/images/captcha_btn_help_hover.png') no-repeat 0 0 scroll;
 }
 .header.customer {
 	position: relative;
@@ -1690,7 +1690,7 @@ a.icon-question-sign:hover {
 	font-size: 21px;
 	font-weight: normal;
 	text-align: left;
-	background: url('/assets/images/news_arrow.png') no-repeat right center transparent !important;
+	background: url('assets/images/news_arrow.png') no-repeat right center transparent !important;
 	margin: 40px 10px 0;
 	display: inline-block;
 }
@@ -1706,21 +1706,21 @@ a.icon-question-sign:hover {
 .NewsList .PaginationPrevious {
 	width: 14px;
 	height: 8px;
-	background: url('/assets/images/news_btn_pre.png') no-repeat 0 0 transparent !important;
+	background: url('assets/images/news_btn_pre.png') no-repeat 0 0 transparent !important;
 	margin: 0 12px 0 0;
 	display: inline-block;
 }
 .NewsList .PaginationPrevious.disabled {
-	background: url('/assets/images/news_btn_pre_disable.png') no-repeat 0 0 transparent !important;
+	background: url('assets/images/news_btn_pre_disable.png') no-repeat 0 0 transparent !important;
 }
 .NewsList .PaginationNext {
 	width: 14px;
 	height: 8px;
-	background: url('/assets/images/news_btn_next.png') no-repeat 0 0 transparent !important;
+	background: url('assets/images/news_btn_next.png') no-repeat 0 0 transparent !important;
 	display: inline-block;
 }
 .NewsList .PaginationNext.disabled {
-	background: url('/assets/images/news_btn_next_disable.png') no-repeat 0 0 transparent !important;
+	background: url('assets/images/news_btn_next_disable.png') no-repeat 0 0 transparent !important;
 }
 .NewsList ul li {
 	padding: 0;
@@ -1938,11 +1938,11 @@ a.icon-question-sign:hover {
 	display:block;
 	width:33px;
 	height:21px;
-	background:url('/assets/images/ssl_upload.png') no-repeat 12px 0;
+	background:url('assets/images/ssl_upload.png') no-repeat 12px 0;
 	cursor: pointer;
 }
 .btn_upload:hover{
-	background:url('/assets/images/ssl_upload_over.png') no-repeat 12px 0;
+	background:url('assets/images/ssl_upload_over.png') no-repeat 12px 0;
 }
 /*  Member SSL END  */
 
@@ -1990,10 +1990,10 @@ a.icon-question-sign:hover {
 	display:block;
 	width:33px;
 	height:21px;
-	background:url('/assets/images/ssl_upload.png') no-repeat 12px 0;
+	background:url('assets/images/ssl_upload.png') no-repeat 12px 0;
 }
 .btn_upload:hover{
-	background:url('/assets/images/ssl_upload_over.png') no-repeat 12px 0;
+	background:url('assets/images/ssl_upload_over.png') no-repeat 12px 0;
 }
 /*Alert End*/
 @media screen and (min-width: 1281px) {
@@ -2115,7 +2115,7 @@ a.icon-question-sign:hover {
 	.header .for320 .logo {
 		width: 197px;
 		height: 44px;
-		background: url('/assets/responsive/images/320/header_logo.png') no-repeat 13px center transparent;
+		background: url('assets/responsive/images/320/header_logo.png') no-repeat 13px center transparent;
 		background-size: 184px auto;
 		display: block;
 	}
@@ -2126,7 +2126,7 @@ a.icon-question-sign:hover {
 		display: block;
 	}
 	.header .for320 a.More {
-		background: url('/assets/responsive/images/320/header_btn_more.png') no-repeat 0 center transparent;
+		background: url('assets/responsive/images/320/header_btn_more.png') no-repeat 0 center transparent;
 		background-size: 18px auto;
 	}
 	.header .for320 > ul {
@@ -2146,7 +2146,7 @@ a.icon-question-sign:hover {
 	.header .for320 a .header-switch {
 		width: 26px;
 		height: 46px;
-		background: url('/assets/responsive/images/320/hud_icon_site.png') no-repeat center transparent;
+		background: url('assets/responsive/images/320/hud_icon_site.png') no-repeat center transparent;
 		background-size: 16px auto;
 		display: block;
 	}
@@ -2178,7 +2178,7 @@ a.icon-question-sign:hover {
 	.header .for320 .header-alert {
 		width: 26px;
 		height: 46px;
-		background: url('/assets/responsive/images/320/hud_btn_alert.png') no-repeat center transparent;
+		background: url('assets/responsive/images/320/hud_btn_alert.png') no-repeat center transparent;
 		background-size: 16px auto;
 		display: block;
 	}
@@ -2202,7 +2202,7 @@ a.icon-question-sign:hover {
 	.header .for320 .header-report {
 		width: 26px;
 		height: 46px;
-		background: url('/assets/responsive/images/320/hud_btn_report.png') no-repeat center transparent;
+		background: url('assets/responsive/images/320/hud_btn_report.png') no-repeat center transparent;
 		display: block;
 	}
 	.header .for320 .menu > a {
@@ -2230,22 +2230,22 @@ a.icon-question-sign:hover {
 		border-bottom: 1px solid #B3B3B3;
 	}
 	.header .for320 .menu ul li:nth-child(1) {
-		background: url('/assets/responsive/images/320/more_btn_account.png') no-repeat 18px center transparent;
+		background: url('assets/responsive/images/320/more_btn_account.png') no-repeat 18px center transparent;
 	}
 	.header .for320 .menu ul li:nth-child(1):hover {
-		background: url('/assets/responsive/images/320/more_btn_account_focus.png') no-repeat 18px center transparent;
+		background: url('assets/responsive/images/320/more_btn_account_focus.png') no-repeat 18px center transparent;
 	}
 	.header .for320 .menu ul li:nth-child(2) {
-		background: url('/assets/responsive/images/320/more_btn_news.png') no-repeat 18px center transparent;
+		background: url('assets/responsive/images/320/more_btn_news.png') no-repeat 18px center transparent;
 	}
 	.header .for320 .menu ul li:nth-child(2):hover {
-		background: url('/assets/responsive/images/320/more_btn_news_focus.png') no-repeat 18px center transparent;
+		background: url('assets/responsive/images/320/more_btn_news_focus.png') no-repeat 18px center transparent;
 	}
 	.header .for320 .menu ul li:nth-child(3) {
-		background: url('/assets/responsive/images/320/more_btn_help.png') no-repeat 18px center transparent;
+		background: url('assets/responsive/images/320/more_btn_help.png') no-repeat 18px center transparent;
 	}
 	.header .for320 .menu ul li:nth-child(3):hover {
-		background: url('/assets/responsive/images/320/more_btn_help_focus.png') no-repeat 18px center transparent;
+		background: url('assets/responsive/images/320/more_btn_help_focus.png') no-repeat 18px center transparent;
 	}
 	.header .for320 .menu ul li a {
 		color: #B3B3B3;
@@ -2341,7 +2341,7 @@ a.icon-question-sign:hover {
 	}
 	#HUD .for320 li.HUD-Biz section:nth-child(1) > h2 {
 		color: #205752;
-		background-image: url('/assets/responsive/images/320/nav_pulse.png');
+		background-image: url('assets/responsive/images/320/nav_pulse.png');
 	}
 	#HUD .for320 li.HUD-Biz > section:nth-child(1) > div > div:nth-child(2) > label,
 	#HUD .for320 li.HUD-Biz > section:nth-child(1) > div > div:nth-child(3) > label {
@@ -2349,7 +2349,7 @@ a.icon-question-sign:hover {
 	}
 	#HUD .for320 li.HUD-Protection section:nth-child(1) > h2 {
 		color: #4A691C;
-		background-image: url('/assets/responsive/images/320/nav_protection.png');
+		background-image: url('assets/responsive/images/320/nav_protection.png');
 	}
 	#HUD .for320 li > section:nth-child(1) > div > div:nth-child(2) > label {
 		color: #f9bda8;
@@ -2360,7 +2360,7 @@ a.icon-question-sign:hover {
 	}
 	#HUD .for320 li.HUD-Performance > section:nth-child(1) > h2 {
 		color: #f9bda8;
-		background-image: url('/assets/responsive/images/320/nav_perform.png');
+		background-image: url('assets/responsive/images/320/nav_perform.png');
 	}
 	#HUD .for320 li.HUD-Performance > section:nth-child(1) > div > div:nth-child(2) > label,
 	#HUD .for320 li.HUD-Performance > section:nth-child(1) > div > div:nth-child(3) > label {
@@ -2368,7 +2368,7 @@ a.icon-question-sign:hover {
 	}
 	#HUD .for320 li.HUD-APPs > section:nth-child(1) > h2 {
 		color: #5C3739;
-		background-image: url('/assets/responsive/images/320/nav_app.png');
+		background-image: url('assets/responsive/images/320/nav_app.png');
 	}
 	#HUD .for320 li > section:nth-child(2) {
 		background: #FFFFFF;
@@ -2525,44 +2525,44 @@ a.icon-question-sign:hover {
 		padding: 0 0 0 5px;
 	}
 	#HUD .for320 .APPs-Performance ul li:after {
-		background: url('/assets/responsive/images/320/app_perform_switch_on.png') no-repeat 0 top transparent;
+		background: url('assets/responsive/images/320/app_perform_switch_on.png') no-repeat 0 top transparent;
 	}
 	#HUD .for320 .APPs-Performance h1 {
 		color: #9B9887;
-		background: url('/assets/responsive/images/320/app_perform.png') no-repeat top center transparent;
+		background: url('assets/responsive/images/320/app_perform.png') no-repeat top center transparent;
 	}
 	#HUD .for320 .APPs-Protection ul li:after {
-		background: url('/assets/responsive/images/320/app_protect_switch_on.png') no-repeat 0 top transparent;
+		background: url('assets/responsive/images/320/app_protect_switch_on.png') no-repeat 0 top transparent;
 	}
 	#HUD .for320 .APPs-Protection h1 {
 		color: #94BF4F;
-		background: url('/assets/responsive/images/320/app_protection.png') no-repeat top center transparent;
+		background: url('assets/responsive/images/320/app_protection.png') no-repeat top center transparent;
 	}
 	#HUD .for320 .APPs-Protection h2 {
 		color: #94BF4F;
 	}
 	#HUD .for320 .APPs-Protection h2:nth-child(2) {
-		background: url('/assets/responsive/images/320/app_protection_1.png') no-repeat 5px center transparent;
+		background: url('assets/responsive/images/320/app_protection_1.png') no-repeat 5px center transparent;
 	}
 	#HUD .for320 .APPs-Protection h2:nth-child(4) {
-		background: url('/assets/responsive/images/320/app_protection_2.png') no-repeat 5px center transparent;
+		background: url('assets/responsive/images/320/app_protection_2.png') no-repeat 5px center transparent;
 	}
 	#HUD .for320 .APPs-Protection h2:nth-child(6) {
-		background: url('/assets/responsive/images/320/app_protection_3.png') no-repeat 5px center transparent;
+		background: url('assets/responsive/images/320/app_protection_3.png') no-repeat 5px center transparent;
 	}
 	#HUD .for320 .APPs-BuiltInAPPs h1 {
 		color: #ECAFB2;
-		background: url('/assets/responsive/images/320/app_buildin.png') no-repeat center top transparent;
+		background: url('assets/responsive/images/320/app_buildin.png') no-repeat center top transparent;
 	}
 	#HUD .for320 .APPs-BuiltInAPPs ul li:after {
-		background: url('/assets/responsive/images/320/app_buildin_switch_on.png') no-repeat 0 top transparent;
+		background: url('assets/responsive/images/320/app_buildin_switch_on.png') no-repeat 0 top transparent;
 	}
 	#HUD .for320 .APPs-3rdPartyAPPs h1 {
 		color: #999999;
-		background: url('/assets/responsive/images/320/app_3rd.png') no-repeat center top transparent;
+		background: url('assets/responsive/images/320/app_3rd.png') no-repeat center top transparent;
 	}
 	#HUD .for320 li.HUD-APPs div > ul li.apps-disabled:after {
-		background: url('/assets/responsive/images/320/app_switch_off.png') no-repeat center top transparent;
+		background: url('assets/responsive/images/320/app_switch_off.png') no-repeat center top transparent;
 	}
 	#HUD .for320 li.HUD-APPs div > ul li.apps-disabled a {
 		color: #999999;
@@ -2574,16 +2574,16 @@ a.icon-question-sign:hover {
 		padding: 0 0 0 30px;
 	}
 	#HUD .for320 .apps-business-pulse {
-		background: url('/assets/responsive/images/320/app_buildin_1.png') no-repeat 5px center transparent;
+		background: url('assets/responsive/images/320/app_buildin_1.png') no-repeat 5px center transparent;
 	}
 	#HUD .for320 .apps-clearscan {
-		background: url('/assets/responsive/images/320/app_buildin_2.png') no-repeat 5px center transparent;
+		background: url('assets/responsive/images/320/app_buildin_2.png') no-repeat 5px center transparent;
 	}
 	#HUD .for320 .apps-ddos-assessment {
-		background: url('/assets/responsive/images/320/app_buildin_3.png') no-repeat 5px center transparent;
+		background: url('assets/responsive/images/320/app_buildin_3.png') no-repeat 5px center transparent;
 	}
 	#HUD .for320 .apps-cloud-based-ddos-detection {
-		background: url('/assets/responsive/images/320/app_buildin_4.png') no-repeat 5px center transparent;
+		background: url('assets/responsive/images/320/app_buildin_4.png') no-repeat 5px center transparent;
 	}
 	#Overview {
 		height: 92%;
@@ -2599,7 +2599,7 @@ a.icon-question-sign:hover {
 	#Overview > a {
 		width: 24px;
 		height: 30px;
-		background: url('/assets/responsive/images/320/allsite_btn_back.png') no-repeat center top transparent;
+		background: url('assets/responsive/images/320/allsite_btn_back.png') no-repeat center top transparent;
 		background-size: 100% auto;
 	}
 	#Overview .websites {
@@ -2645,7 +2645,7 @@ a.icon-question-sign:hover {
 	}
 	section.landing {
 		height: 260px;
-		background: url("/assets/responsive/images/320/login_logo.png") no-repeat scroll center 30px #063034;
+		background: url("assets/responsive/images/320/login_logo.png") no-repeat scroll center 30px #063034;
 		background-size: 106px auto;
 	}
 	#LoginForm,
@@ -2792,28 +2792,28 @@ a.icon-question-sign:hover {
 		background-size: 25px auto !important;
 	}
 	.recaptcha-controls a.icon-refresh {
-		background: url('/assets/responsive/images/320/recaptcha_refresh.png') no-repeat 0 0 scroll;
+		background: url('assets/responsive/images/320/recaptcha_refresh.png') no-repeat 0 0 scroll;
 	}
 	.recaptcha-controls a.icon-refresh:hover {
-		background: url('/assets/responsive/images/320/recaptcha_refresh_focus.png') no-repeat 0 0 scroll;
+		background: url('assets/responsive/images/320/recaptcha_refresh_focus.png') no-repeat 0 0 scroll;
 	}
 	.recaptcha-controls a.icon-headphones {
-		background: url('/assets/responsive/images/320/recaptcha_soundon.png') no-repeat 0 0 scroll;
+		background: url('assets/responsive/images/320/recaptcha_soundon.png') no-repeat 0 0 scroll;
 	}
 	.recaptcha-controls a.icon-headphones:hover {
-		background: url('/assets/responsive/images/320/recaptcha_soundon_focus.png') no-repeat 0 0 scroll;
+		background: url('assets/responsive/images/320/recaptcha_soundon_focus.png') no-repeat 0 0 scroll;
 	}
 	.recaptcha-controls a.icon-picture {
-		background: url('/assets/responsive/images/320/recaptcha_soundoff.png') no-repeat 0 0 scroll;
+		background: url('assets/responsive/images/320/recaptcha_soundoff.png') no-repeat 0 0 scroll;
 	}
 	.recaptcha-controls a.icon-picture:hover {
-		background: url('/assets/responsive/images/320/recaptcha_soundoff_focus.png') no-repeat 0 0 scroll;
+		background: url('assets/responsive/images/320/recaptcha_soundoff_focus.png') no-repeat 0 0 scroll;
 	}
 	.recaptcha-controls a.icon-question-sign {
-		background: url('/assets/responsive/images/320/recaptcha_help.png') no-repeat 0 0 scroll;
+		background: url('assets/responsive/images/320/recaptcha_help.png') no-repeat 0 0 scroll;
 	}
 	.recaptcha-controls a.icon-question-sign:hover {
-		background: url('/assets/responsive/images/320/recaptcha_help_focus.png') no-repeat 0 0 scroll;
+		background: url('assets/responsive/images/320/recaptcha_help_focus.png') no-repeat 0 0 scroll;
 	}
 }
 .AdminMenus {
@@ -2828,7 +2828,7 @@ a.icon-question-sign:hover {
 .AdminMenus .logo {
 	width: 27px;
 	height: 40px;
-	background: url('/assets/images/logo_simple.png') no-repeat center transparent;
+	background: url('assets/images/logo_simple.png') no-repeat center transparent;
 	margin: 0 30px 0 0;
 	display: block;
 	float: left;
@@ -3137,7 +3137,7 @@ footer a:hover {
 	/*text-decoration: underline;*/
 }
 .nxg-logo{
-	background:url('/assets/images/logo_nxg.png') no-repeat 0 0 transparent;
+	background:url('assets/images/logo_nxg.png') no-repeat 0 0 transparent;
 	position:relative;
 	width:176px;
 	height:18px;
@@ -3285,7 +3285,7 @@ section.footer br {
 	height: 500px;/*rrr*/
 	margin: 30px auto 0;
 	background-color: #FFFFFF !important;
-	background: url('/assets/images/live_data_map.jpg') no-repeat -2px 0 transparent !important;
+	background: url('assets/images/live_data_map.jpg') no-repeat -2px 0 transparent !important;
 }
 #MainViews-Biz .LiveMaps .angular-google-map-container:after {
 	width: 920px;/*rrr*/
@@ -3294,87 +3294,87 @@ section.footer br {
 	position: relative;
 	content: " ";
 	display: block;
-	/*background: url('/assets/images/live_data_map.jpg') no-repeat 0 30px transparent !important;
+	/*background: url('assets/images/live_data_map.jpg') no-repeat 0 30px transparent !important;
 	opacity: 0.5;*/
 }
 #MainViews-Biz .MainViewsMenu li:after {
 	border-color: #999999
 }
 #MainViews-Biz .MainViewsMenu li:nth-child(1) a {
-	background: url('/assets/images/pulse_menu_map.png') no-repeat 0 0 transparent;
+	background: url('assets/images/pulse_menu_map.png') no-repeat 0 0 transparent;
 }
 #MainViews-Biz .MainViewsMenu li:nth-child(1) a.active,
 #MainViews-Biz .MainViewsMenu li:nth-child(1) a:hover {
-	background: url('/assets/images/pulse_menu_map-on.png') no-repeat 0 0 transparent;
+	background: url('assets/images/pulse_menu_map-on.png') no-repeat 0 0 transparent;
 }
 #MainViews-Biz .MainViewsMenu li:nth-child(2) a {
-	background: url('/assets/images/pulse_menu_trend.png') no-repeat 0 0 transparent;
+	background: url('assets/images/pulse_menu_trend.png') no-repeat 0 0 transparent;
 }
 #MainViews-Biz .MainViewsMenu li:nth-child(2) a.active,
 #MainViews-Biz .MainViewsMenu li:nth-child(2) a:hover {
-	background: url('/assets/images/pulse_menu_trend-on.png') no-repeat 0 0 transparent;
+	background: url('assets/images/pulse_menu_trend-on.png') no-repeat 0 0 transparent;
 }
 #MainViews-Biz .MainViewsMenu li:nth-child(3) a {
-	background: url('/assets/images/pulse_menu_analystic.png') no-repeat 0 0 transparent;
+	background: url('assets/images/pulse_menu_analystic.png') no-repeat 0 0 transparent;
 }
 #MainViews-Biz .MainViewsMenu li:nth-child(3) a.active,
 #MainViews-Biz .MainViewsMenu li:nth-child(3) a:hover {
-	background: url('/assets/images/pulse_menu_analystic-on.png') no-repeat 0 0 transparent;
+	background: url('assets/images/pulse_menu_analystic-on.png') no-repeat 0 0 transparent;
 }
 #MainViews-Protection .MainViewsMenu li:after {
 	border-color: #94BF4F;
 }
 #MainViews-Protection .MainViewsMenu li:nth-child(1) a {
-	background: url('/assets/images/protect_menu_map.png') no-repeat 0 0 transparent;
+	background: url('assets/images/protect_menu_map.png') no-repeat 0 0 transparent;
 }
 #MainViews-Protection .MainViewsMenu li:nth-child(1) a.active,
 #MainViews-Protection .MainViewsMenu li:nth-child(1) a:hover {
-	background: url('/assets/images/protect_menu_map-on.png') no-repeat 0 0 transparent;
+	background: url('assets/images/protect_menu_map-on.png') no-repeat 0 0 transparent;
 }
 #MainViews-Protection .MainViewsMenu li:nth-child(2) a {
-	background: url('/assets/images/protect_menu_trend.png') no-repeat 0 0 transparent;
+	background: url('assets/images/protect_menu_trend.png') no-repeat 0 0 transparent;
 }
 #MainViews-Protection .MainViewsMenu li:nth-child(2) a.active,
 #MainViews-Protection .MainViewsMenu li:nth-child(2) a:hover {
-	background: url('/assets/images/protect_menu_trend-on.png') no-repeat 0 0 transparent;
+	background: url('assets/images/protect_menu_trend-on.png') no-repeat 0 0 transparent;
 }
 #MainViews-Protection .MainViewsMenu li:nth-child(3) a {
-	background: url('/assets/images/protect_menu_category.png') no-repeat 0 0 transparent;
+	background: url('assets/images/protect_menu_category.png') no-repeat 0 0 transparent;
 }
 #MainViews-Protection .MainViewsMenu li:nth-child(3) a.active,
 #MainViews-Protection .MainViewsMenu li:nth-child(3) a:hover {
-	background: url('/assets/images/protect_menu_category-on.png') no-repeat 0 0 transparent;
+	background: url('assets/images/protect_menu_category-on.png') no-repeat 0 0 transparent;
 }
 #MainViews-Protection .MainViewsMenu li:nth-child(4) a {
-	background: url('/assets/images/protect_menu_log.png') no-repeat 0 0 transparent;
+	background: url('assets/images/protect_menu_log.png') no-repeat 0 0 transparent;
 }
 #MainViews-Protection .MainViewsMenu li:nth-child(4) a.active,
 #MainViews-Protection .MainViewsMenu li:nth-child(4) a:hover {
-	background: url('/assets/images/protect_menu_log-on.png') no-repeat 0 0 transparent;
+	background: url('assets/images/protect_menu_log-on.png') no-repeat 0 0 transparent;
 }
 #MainViews-Performance .DataCenterMaps .DataCenterMapsCanvas {
 	width: 920px;/*rrr*/
 	height: 452px;/*rrr*/
 	margin: 25px auto 0;
 	background-color: #FFFFFF !important;
-	background: url('/assets/images/datacenter_map.jpg') repeat 0 0 transparent !important;
+	background: url('assets/images/datacenter_map.jpg') repeat 0 0 transparent !important;
 }
 #MainViews-Performance .MainViewsMenu li:after {
 	border-color: #9B9887;
 }
 #MainViews-Performance .MainViewsMenu li:nth-child(1) a {
-	background: url('/assets/images/perform_menu_map.png') no-repeat 0 0 transparent;
+	background: url('assets/images/perform_menu_map.png') no-repeat 0 0 transparent;
 }
 #MainViews-Performance .MainViewsMenu li:nth-child(1) a.active,
 #MainViews-Performance .MainViewsMenu li:nth-child(1) a:hover {
-	background: url('/assets/images/perform_menu_map-on.png') no-repeat 0 0 transparent;
+	background: url('assets/images/perform_menu_map-on.png') no-repeat 0 0 transparent;
 }
 #MainViews-Performance .MainViewsMenu li:nth-child(2) a {
-	background: url('/assets/images/perform_menu_trend.png') no-repeat 0 0 transparent;
+	background: url('assets/images/perform_menu_trend.png') no-repeat 0 0 transparent;
 }
 #MainViews-Performance .MainViewsMenu li:nth-child(2) a.active,
 #MainViews-Performance .MainViewsMenu li:nth-child(2) a:hover {
-	background: url('/assets/images/perform_menu_trend-on.png') no-repeat 0 0 transparent;
+	background: url('assets/images/perform_menu_trend-on.png') no-repeat 0 0 transparent;
 }
 #MainViews-APPs > div {
 	width: 960px;
@@ -3428,35 +3428,35 @@ section.footer br {
 #MainViews-APPs .MainViews-App-Performance h3 {
 	color: #9B9887;
 	border-color: #9B9887;
-	background: url('/assets/images/app_perform.png') no-repeat 0 top transparent;
+	background: url('assets/images/app_perform.png') no-repeat 0 top transparent;
 }
 #MainViews-APPs .MainViews-App-Performance ul li:after {
-	background: url('/assets/images/app_perform_switch.png') no-repeat 0 top transparent;
+	background: url('assets/images/app_perform_switch.png') no-repeat 0 top transparent;
 }
 #MainViews-APPs .MainViews-App-Protection h3 {
 	color: #94BF4F;
 	border-color: #94BF4F;
-	background: url('/assets/images/app_protect.png') no-repeat 0 top transparent;
+	background: url('assets/images/app_protect.png') no-repeat 0 top transparent;
 }
 #MainViews-APPs h4.apps-ddos-protection {
-	background: url('/assets/images/app_protect_s.png') no-repeat 0 top transparent;
+	background: url('assets/images/app_protect_s.png') no-repeat 0 top transparent;
 }
 #MainViews-APPs h4.apps-web-application-firewall {
-	background: url('/assets/images/app_firewall.png') no-repeat 0 top transparent;
+	background: url('assets/images/app_firewall.png') no-repeat 0 top transparent;
 }
 #MainViews-APPs h4.apps-others {
-	background: url('/assets/images/app_other.png') no-repeat 0 top transparent;
+	background: url('assets/images/app_other.png') no-repeat 0 top transparent;
 }
 #MainViews-APPs .MainViews-App-Protection ul li:after {
-	background: url('/assets/images/app_protect_switch.png') no-repeat 0 top transparent;
+	background: url('assets/images/app_protect_switch.png') no-repeat 0 top transparent;
 }
 #MainViews-APPs .MainViews-App-BuiltInAPP h3 {
 	color: #ECAFB2;
 	border-color: #ECAFB2;
-	background: url('/assets/images/app_buildin.png') no-repeat 0 top transparent;
+	background: url('assets/images/app_buildin.png') no-repeat 0 top transparent;
 }
 #MainViews-APPs .MainViews-App-BuiltInAPP ul li:after {
-	background: url('/assets/images/app_buildin_switch.png') no-repeat 0 top transparent;
+	background: url('assets/images/app_buildin_switch.png') no-repeat 0 top transparent;
 	top: 58px;
 }
 #MainViews-APPs .MainViews-App-BuiltInAPP ul {
@@ -3466,27 +3466,27 @@ section.footer br {
 	padding-top: 58px;
 }
 #MainViews-APPs .apps-business-pulse {
-	background: url('/assets/images/app_pulse.png') no-repeat 0 18px transparent;
+	background: url('assets/images/app_pulse.png') no-repeat 0 18px transparent;
 }
 #MainViews-APPs .apps-clearscan {
-	background: url('/assets/images/app_clearscan.png') no-repeat 0 18px transparent;
+	background: url('assets/images/app_clearscan.png') no-repeat 0 18px transparent;
 }
 #MainViews-APPs .apps-ddos-assessment {
-	background: url('/assets/images/app_assessment.png') no-repeat 0 18px transparent;
+	background: url('assets/images/app_assessment.png') no-repeat 0 18px transparent;
 }
 #MainViews-APPs .apps-cloud-based-ddos-detection {
-	background: url('/assets/images/app_cloud.png') no-repeat 0 18px transparent;
+	background: url('assets/images/app_cloud.png') no-repeat 0 18px transparent;
 }
 #MainViews-APPs .MainViews-App-3rdPartyAPPs h3 {
 	color: #CCCCCC;
 	border-color: #CCCCCC;
-	background: url('/assets/images/app_3rd.png') no-repeat 0 top transparent;
+	background: url('assets/images/app_3rd.png') no-repeat 0 top transparent;
 }
 #MainViews-APPs .MainViews-App-3rdPartyAPPs ul li:after {
-	background: url('/assets/images/app_3rd_switch.png') no-repeat 0 top transparent;
+	background: url('assets/images/app_3rd_switch.png') no-repeat 0 top transparent;
 }
 #MainViews-APPs ul li.apps-disabled:after {
-	background: url('/assets/images/app_switch_disabled.png') no-repeat 0 top transparent;
+	background: url('assets/images/app_switch_disabled.png') no-repeat 0 top transparent;
 }
 
 /*
@@ -3505,47 +3505,47 @@ RESPONESIVEé å‚™
 .Page-Buiness-Pulse-1 {
 	width: 1000px;
 	height: 521px;
-	background: url('/assets/images/page_pulse-1.png') no-repeat center transparent;
+	background: url('assets/images/page_pulse-1.png') no-repeat center transparent;
 }
 .Page-Buiness-Pulse-2 {
 	width: 1000px;
 	height: 466px;
-	background: url('/assets/images/page_pulse-2.png') no-repeat center transparent;
+	background: url('assets/images/page_pulse-2.png') no-repeat center transparent;
 }
 .Page-Buiness-Pulse-3 {
 	width: 1000px;
 	height: 551px;
-	background: url('/assets/images/page_pulse-3.png') no-repeat center transparent;
+	background: url('assets/images/page_pulse-3.png') no-repeat center transparent;
 }
 .Page-Protection-1 {
 	width: 1000px;
 	height: 521px;
-	background: url('/assets/images/page_protect-1.png') no-repeat center transparent;
+	background: url('assets/images/page_protect-1.png') no-repeat center transparent;
 }
 .Page-Protection-2 {
 	width: 1000px;
 	height: 466px;
-	background: url('/assets/images/page_protect-2.png') no-repeat center transparent;
+	background: url('assets/images/page_protect-2.png') no-repeat center transparent;
 }
 .Page-Protection-3 {
 	width: 1000px;
 	height: 523px;
-	background: url('/assets/images/page_protect-3.png') no-repeat center transparent;
+	background: url('assets/images/page_protect-3.png') no-repeat center transparent;
 }
 .Page-Protection-4 {
 	width: 1000px;
 	height: 489px;
-	background: url('/assets/images/page_protect-4.png') no-repeat center transparent;
+	background: url('assets/images/page_protect-4.png') no-repeat center transparent;
 }
 .Page-Performance-1 {
 	width: 1000px;
 	height: 521px;
-	background: url('/assets/images/page_perform-1.png') no-repeat center transparent;
+	background: url('assets/images/page_perform-1.png') no-repeat center transparent;
 }
 .Page-Performance-2 {
 	width: 1000px;
 	height: 466px;
-	background: url('/assets/images/page_perform-2.png') no-repeat center transparent;
+	background: url('assets/images/page_perform-2.png') no-repeat center transparent;
 }
 
 .Datatables {
@@ -3569,12 +3569,12 @@ RESPONESIVEé å‚™
 .Datatables .DatatablesSmall {
 	width: 20px;
 	height: 30px;
-	background: url('/assets/images/liveip_table_close.png') no-repeat center transparent;
+	background: url('assets/images/liveip_table_close.png') no-repeat center transparent;
 	float: right;
 	display: block;
 }
 .Datatables .DatatablesSmall.DatatablesSmallOpen {
-	background: url('/assets/images/liveip_table_open.png') no-repeat center transparent;
+	background: url('assets/images/liveip_table_open.png') no-repeat center transparent;
 }
 .Datatables > div.DatatablesTable {
 	height: 210px;
@@ -3750,7 +3750,7 @@ RESPONESIVEé å‚™
 .Biz3 .topContents table tr td:nth-child(2) div:nth-child(1) {
 	text-align: left;
 	padding: 0 0 0 18px;
-	background: url('/assets/images/icon-link.png') no-repeat 0 center transparent;
+	background: url('assets/images/icon-link.png') no-repeat 0 center transparent;
 }
 .Biz3 .topContents table tr td:nth-child(2) div:nth-child(1) a {
 	max-width: 400px;
@@ -3768,7 +3768,7 @@ RESPONESIVEé å‚™
 	line-height: 1;
 	text-align: left;
 	padding: 0 0 0 18px;
-	background: url('/assets/images/icon-clock.png') no-repeat 0 center transparent;
+	background: url('assets/images/icon-clock.png') no-repeat 0 center transparent;
 }
 
 .PieChartsCenter {
@@ -3964,7 +3964,7 @@ RESPONESIVEé å‚™
 }
 
 slider {
-	background: url('/assets/images/pulse_slider_bg.png') no-repeat 0 0 transparent !important;
+	background: url('assets/images/pulse_slider_bg.png') no-repeat 0 0 transparent !important;
 }
 
 .DataCenterMaps > h2 {
@@ -4191,7 +4191,7 @@ slider {
 .DataCenterMarks > div > label.DataCenterMarksSize0 {
 	width: 16px;
 	height: 18px;
-	background-image: url('/assets/images/tg.png' );
+	background-image: url('assets/images/tg.png' );
 	border-width: 0;
 }
 
@@ -4308,7 +4308,7 @@ slider {
 .DataCenterMarks > div.London > div > ul li > label:after {
 	width: 16px;
 	height: 22px;
-	background-image: url('/assets/images/tg.png' );
+	background-image: url('assets/images/tg.png' );
 	background-repeat: no-repeat;
 	margin: 0 7px 0 0;
 	border-radius: 50%;
@@ -4322,7 +4322,7 @@ slider {
 .DataCenterMarks > div.Taipei > div > ul li > label:after {
 	width: 16px;
 	height: 22px;
-	background-image: url('/assets/images/tg.png' );
+	background-image: url('assets/images/tg.png' );
 	background-repeat: no-repeat;
 	margin: 0 7px 0 0;
 	border-radius: 50%;
@@ -4548,12 +4548,12 @@ slider {
 	vertical-align: middle;
 	width: 24px;
 	height: 25px;
-	/*background: url('/assets/images/ac_setting.png') no-repeat center transparent;*/
+	/*background: url('assets/images/ac_setting.png') no-repeat center transparent;*/
 	display: inline-block;
 	cursor: pointer;
 
 /*    margin: 0 2px 0 4px;
-    background: url('/assets/images/ac_setting.png') no-repeat 0 0;
+    background: url('assets/images/ac_setting.png') no-repeat 0 0;
     width: 15px;
     height: 18px;
     display: inline-block;*/
@@ -4695,7 +4695,7 @@ a.menu_a:active {
 .menu_btn {
     width: 50px;
     height: 50px;
-    background: #999999 url('/assets/images/menu_icon.png') no-repeat center center;
+    background: #999999 url('assets/images/menu_icon.png') no-repeat center center;
     border: none;
 }
 

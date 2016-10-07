@@ -1,6 +1,7 @@
 var alt = require('../alt')
 var config = require('../setting.js')
 var Lib = require('../lib/Lib.js')
+var dummy_me = require('./dummy/me.json')
 
 class CustomerActions {
   	constructor() {
@@ -20,28 +21,30 @@ class CustomerActions {
 
         var token = Lib.loadToken()
 
-         $.ajax({
-                dataType: "json",
-                url: config.sso + "/me",
-                beforeSend: function(xhr) {
-                    //xhr.setRequestHeader("Authorization", "Bearer " + token);
-                },
+        this.actions.setCustomer(dummy_me);
+
+        //  $.ajax({
+        //         dataType: "json",
+        //         url: config.sso + "/me",
+        //         beforeSend: function(xhr) {
+        //             //xhr.setRequestHeader("Authorization", "Bearer " + token);
+        //         },
 
 
-                xhrFields: {
-                  withCredentials: true
-                },
+        //         xhrFields: {
+        //           withCredentials: true
+        //         },
 
-                success: function( data ) {
-                    if(data.user)
-                        self.actions.setCustomer( data ) 
-                },
+        //         success: function( data ) {
+        //             if(data.user)
+        //                 self.actions.setCustomer( data ) 
+        //         },
 
-                error: function(jqXHR){
-                    if(jqXHR.status === 401 || jqXHR.status === 400)
-                        window.location.replace(config.sso + '?redirect_uri=' + config.host) 
-                }
-        })
+        //         error: function(jqXHR){
+        //             if(jqXHR.status === 401 || jqXHR.status === 400)
+        //                 window.location.replace(config.sso + '?redirect_uri=' + config.host) 
+        //         }
+        // })
 
         // $.ajax({
         //     dataType: "json",

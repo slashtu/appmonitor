@@ -5,6 +5,8 @@ var trackerWS = require('../setting.js').trackerWS
 
 var currentWS;
 
+var randomCountry = require('random-country');
+
 class TrackerActions {
 
     constructor() {
@@ -15,45 +17,22 @@ class TrackerActions {
     }      
 
     subscribeWS(){
+        var self = this;
 
-        // if a websocket already connected, close it.
-        if(typeof currentWS !== 'undefined')
-            currentWS.close();
+        setInterval(function(){
+          var data = {
+            site_id: 'dummy',
+            onlineusercount: 69 + Math.round(Math.random()*5),
+            latitude: Math.floor(Math.random() * 181) - 90,
+            longitude: Math.floor(Math.random() * 361) - 180,
+            ip: Math.floor(Math.random() * 255) + '.' + Math.floor(Math.random() * 255) + '.' + Math.floor(Math.random() * 255) + '.' + Math.floor(Math.random() * 255),
+            country: randomCountry({ full: true }),
+            gt_ms: Math.floor(Math.random() * 500),
+            url: 'https://example.com'
+          }
+          self.actions.setData(data)
+        }, 300)
 
-    	var self = this
-
-        //setInterval( this.actions.setData.bind(this, {site_id:'S-81375fec-fe24-4518-8ae6-6b1530be8671', latitude:20, longitude: 120 }) , 1000)
-
-        var CustomerStore = require('../stores/CustomerStore.jsx')
-        var SettingStore = require('../stores/SettingStore.jsx')
-        var WAFLogActions = require('./WAFLogActions.jsx')
-
-        var cid = CustomerStore.getState().user.cid || ""
-
-        var wb = trackerWS + '?custid=' + cid
-
-        // var wb = 'wss://sso.nxg.me/ws?custid=C-31148721-4285-4198-ad58-33844586165d'
-
-    	var client = new W3CWebSocket( 'ws://localhost:8080/', 'echo-protocol');
-
-        currentWS = client;
-
-    	client.onopen = function() {
-            console.log('WebSocket Client Connected');
-        };
-
-        client.onmessage = function(e) {
-
-            if (typeof e.data === 'string') {
-
-                let data = JSON.parse(e.data)
-
-                if( data.module )
-                    WAFLogActions.setCddWAFLog(data)
-                else
-                    self.actions.setData(data)
-            }
-        };
     }
 }
 

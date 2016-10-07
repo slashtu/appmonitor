@@ -1,13 +1,13 @@
 var React = require('react');
 
-var m1 = '/assets/images/cluster1.png'
-var m2 = '/assets/images/cluster2.png'
-var m3 = '/assets/images/cluster3.png'
-var m4 = '/assets/images/cluster4.png'
-var m5 = '/assets/images/cluster5.png'
+var m1 = 'assets/images/cluster1.png'
+var m2 = 'assets/images/cluster2.png'
+var m3 = 'assets/images/cluster3.png'
+var m4 = 'assets/images/cluster4.png'
+var m5 = 'assets/images/cluster5.png'
 
-var flash1 = "url('/assets/images/cluster1.png') no-repeat 0%"
-var flash2 = "url('/assets/images/cluster1.png') no-repeat 100%"
+var flash1 = "url('assets/images/cluster1.png') no-repeat 0%"
+var flash2 = "url('assets/images/cluster1.png') no-repeat 100%"
 
 var imgstyle = {
 	position: 'absolute',
