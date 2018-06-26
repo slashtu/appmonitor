@@ -5,7 +5,9 @@
   "scripts": {
     "start": "rm -rf dist && gulp production && webpack --config webpack.config.js && NODE_ENV=development node ./bin/www",
     "production": "rm -rf dist && gulp production && webpack --config webpack.production.config.js -p && NODE_ENV=production node ./bin/www",
-    "uat": "rm -rf dist && gulp production && webpack --config webpack.uat.config.js -p && NODE_ENV=uat node ./bin/www"
+    "uat": "rm -rf dist && gulp production && webpack --config webpack.uat.config.js -p && NODE_ENV=uat node ./bin/www",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "alt": "^0.17.1",
@@ -30,7 +32,7 @@
     "ease-component": "^1.0.0",
     "es6-promise": "^3.0.2",
     "exports-loader": "^0.6.3",
-    "express": "~4.13.0",
+    "express": "~4.16.0",
     "express-jwt": "^3.0.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
@@ -38,7 +40,7 @@
     "gulp": "^3.9.0",
     "gulp-imagemin": "^2.3.0",
     "gulp-minify-css": "^1.2.0",
-    "imagemin-pngquant": "^4.1.2",
+    "imagemin-pngquant": "^5.1.0",
     "imports-loader": "^0.6.5",
     "isomorphic-fetch": "^2.2.0",
     "jade": "~1.11.0",
@@ -80,6 +82,8 @@
     "webpack-hot-middleware": "^2.10.0",
     "webpack-path-rewriter": "^1.1.2",
     "websocket": "^1.0.21",
-    "whatwg-fetch": "^1.0.0"
-  }
+    "whatwg-fetch": "^1.0.0",
+    "snyk": "^1.85.0"
+  },
+  "snyk": true
 }
