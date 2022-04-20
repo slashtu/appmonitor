@@ -31,7 +31,7 @@
     "es6-promise": "^3.0.2",
     "exports-loader": "^0.6.3",
     "express": "~4.13.0",
-    "express-jwt": "^3.0.1",
+    "express-jwt": "^6.1.2",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "google-material-color": "^1.2.2",
