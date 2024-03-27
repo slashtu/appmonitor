@@ -30,7 +30,7 @@
     "ease-component": "^1.0.0",
     "es6-promise": "^3.0.2",
     "exports-loader": "^0.6.3",
-    "express": "~4.13.0",
+    "express": "~4.19.2",
     "express-jwt": "^3.0.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
